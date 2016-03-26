@@ -113,7 +113,7 @@ hi PreProc                   guifg=#ff8700 ctermfg=208
 hi Special                   guifg=#005f00 ctermfg=22
 
 " Indentation
-hi IndentGuidesOdd  ctermbg=239 guibg=#545454
+hi IndentGuidesOdd  ctermbg=239 guibg=#49381f
 hi IndentGuidesEven ctermbg=237 guibg=#3a3a3a
 
 " Diffs
@@ -134,7 +134,7 @@ hi rubyClass                 guifg=#dd7927 ctermfg=15
 hi rubyConstant              guifg=#df5f5f ctermfg=167
 hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
 hi rubyBlockParameter        guifg=#dfdfff ctermfg=189
-hi rubyPseudoVariable        guifg=#ffdf5f ctermfg=221
+hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221
 hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#dfdfff ctermfg=189
 hi rubyPredefinedConstant    guifg=#df5f5f ctermfg=167
