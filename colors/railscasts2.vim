@@ -99,6 +99,7 @@ hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
 hi Macro                     guifg=#CC7833 gui=NONE ctermfg=172
 "rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
+hi Boolean                   guifg=#c3e56e ctermfg=107
 " #if, #else, #endif
 hi PreCondit                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
@@ -106,13 +107,13 @@ hi PreProc                   guifg=#CC7833 gui=NONE ctermfg=103
 "rubyControl, rubyAccess, rubyEval: case, begin, do, for, if unless, while, until else, etc.
 hi Statement                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
 "rubyString
-hi String                    guifg=#A5C261 ctermfg=107
+hi String                    guifg=#79d600 ctermfg=107
 hi Title                     guifg=#FFFFFF ctermfg=15
 "rubyConstant
 hi Type                      guifg=#DA4939 gui=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
 hi Special                   guifg=#005f00 ctermfg=22
-h1 Operator                  guifg=#b5e0ff ctermfg=73
+hi Operator                  guifg=#b5e0ff ctermfg=73
 
 " Indentation
 hi IndentGuidesOdd  ctermbg=239 guibg=#49381f
