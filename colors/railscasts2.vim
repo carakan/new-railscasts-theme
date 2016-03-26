@@ -23,8 +23,10 @@ hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi Search                    guibg=#ddd6ff ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#004568 ctermbg=60
 hi LineNr                    guifg=#888888 guibg=#353535  ctermfg=242
-hi StatusLine                guibg=#2B2B2B gui=NONE guifg=#E6E1DC
-hi StatusLineNC              guibg=#2B2B2B gui=NONE
+hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
+hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
+" hi StatusLine                guibg=#2B2B2B gui=NONE guifg=#E6E1DC
+" hi StatusLineNC              guibg=#2B2B2B gui=NONE
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444
 hi CursorLineNr              guifg=#b7b7ff guibg=#353535 ctermfg=248
@@ -45,8 +47,6 @@ hi User6                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ct
 hi User7                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi User8                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
-hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
 
 " Folds
 " -----
