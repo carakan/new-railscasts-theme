@@ -30,11 +30,5 @@ Plugin jpo/vim-railscasts-theme
 Copy ```railscasts.vim``` into ```~/.vim/colors/``` (Unix) or 
 ```vimfiles/colors/``` (Windows).
 
+### This version only works for GUI version or NeoVim with $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-## Screenshots
-
-### GUI :
-<img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot_gui.jpg" />
-
-### Terminal with 256 colors :
-<img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot_256.jpg" />
