@@ -15,20 +15,21 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "railscasts2"
-" highlight clear SignColumn " gitgutter settings
+highlight clear SignColumn
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15   
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
-hi Search                    guibg=#006599 ctermfg=NONE ctermbg=236 cterm=underline
-hi Visual                    guibg=#006599 ctermbg=60
-hi LineNr                    guifg=#888888 ctermfg=242
-hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC
-hi StatusLineNC              guibg=#414243 gui=NONE
+hi Search                    guibg=#ddd6ff ctermfg=NONE ctermbg=236 cterm=underline
+hi Visual                    guibg=#004568 ctermbg=60
+hi LineNr                    guifg=#888888 guibg=#353535  ctermfg=242
+hi StatusLine                guibg=#2B2B2B gui=NONE guifg=#E6E1DC
+hi StatusLineNC              guibg=#2B2B2B gui=NONE
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444
-hi CursorLineNr              guifg=#b7b7ff ctermfg=248
+hi CursorLineNr              guifg=#b7b7ff guibg=#353535 ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
+highlight SignColumn guibg=#353535
 
 " StatusLine
 " Bold
