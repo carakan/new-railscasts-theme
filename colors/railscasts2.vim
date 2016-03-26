@@ -27,7 +27,7 @@ hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC
 hi StatusLineNC              guibg=#414243 gui=NONE
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444
-hi CursorLineNr              guifg=#f4f800 ctermfg=248
+hi CursorLineNr              guifg=#b7b7ff ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 
 " StatusLine
@@ -89,7 +89,7 @@ hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 "rubyFunction
 hi Function                  guifg=#FFC66D gui=NONE ctermfg=221 cterm=NONE
 "rubyIdentifier: @var, @@var, $var, etc
-hi Identifier                guifg=#D0D0FF gui=NONE ctermfg=73 cterm=NONE
+hi Identifier                guifg=#b7b7ff gui=NONE ctermfg=73 cterm=NONE
 "rubyInclude: include, autoload, extend, load, require
 hi Include                   guifg=#CC7833 gui=NONE ctermfg=173 cterm=NONE
 "rubyKeyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
@@ -133,12 +133,12 @@ hi rubyTodo                  guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 cterm
 hi rubyClass                 guifg=#dd7927 ctermfg=15
 hi rubyConstant              guifg=#df5f5f ctermfg=167
 hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
-hi rubyBlockParameter        guifg=#dfdfff ctermfg=189
+hi rubyBlockParameter        guifg=#b7b7ff ctermfg=189
 hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221
 hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
-hi rubyInstanceVariable      guifg=#dfdfff ctermfg=189
+hi rubyInstanceVariable      guifg=#b7b7ff ctermfg=189
 hi rubyPredefinedConstant    guifg=#df5f5f ctermfg=167
-hi rubyLocalVariableOrMethod guifg=#dfdfff ctermfg=189
+hi rubyLocalVariableOrMethod guifg=#b7b7ff ctermfg=189
 
 " Python
 " ------
