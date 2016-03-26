@@ -76,7 +76,7 @@ hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 "rubyComment
 hi Comment                   guifg=#BC9458 gui=italic ctermfg=137
-hi Todo                      guifg=#df5f5f guibg=NONE gui=italic ctermfg=94
+hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=94
 
 "rubyPseudoVariable: nil, self, symbols, etc
 hi Constant                  guifg=#6D9CBE ctermfg=73
@@ -94,7 +94,7 @@ hi Identifier                guifg=#b7b7ff gui=NONE ctermfg=73 cterm=NONE
 "rubyInclude: include, autoload, extend, load, require
 hi Include                   guifg=#CC7833 gui=NONE ctermfg=173 cterm=NONE
 "rubyKeyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
-hi Keyword                   guifg=#CC7833 ctermfg=172 cterm=NONE
+hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
 " same as define
 hi Macro                     guifg=#CC7833 gui=NONE ctermfg=172
 "rubyInteger
@@ -112,6 +112,7 @@ hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 gui=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
 hi Special                   guifg=#005f00 ctermfg=22
+h1 Operator                  guifg=#b5e0ff ctermfg=73
 
 " Indentation
 hi IndentGuidesOdd  ctermbg=239 guibg=#49381f
