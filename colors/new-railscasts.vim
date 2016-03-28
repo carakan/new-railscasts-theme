@@ -14,7 +14,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "railscasts2"
+let g:colors_name = "new-railscasts"
 highlight clear SignColumn
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
@@ -114,14 +114,16 @@ hi Type                      guifg=#DA4939 gui=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
 hi Special                   guifg=#005f00 ctermfg=22
 hi Operator                  guifg=#FFC66D ctermfg=73
+hi Tag                       guifg=#FFC66D ctermfg=73
+hi Label                     guifg=#FFC66D ctermfg=73
 
 " Indentation
 hi IndentGuidesOdd  ctermbg=239 guibg=#49381f
 hi IndentGuidesEven ctermbg=237 guibg=#3a3a3a
 
 " Diffs
-hi DiffAdd                   guifg=#E6E1DC guibg=#144212
-hi DiffDelete                guifg=#E6E1DC guibg=#660000
+hi DiffAdd                   guifg=#e4e4e4 guibg=#519F50 ctermfg=254 ctermbg=22
+hi DiffDelete                guifg=#000000 guibg=#660000 gui=bold ctermfg=16 ctermbg=52 cterm=bold
 hi DiffChange                guifg=#FFFFFF guibg=#870087 ctermfg=15 ctermbg=90
 hi DiffText                  guifg=#FFFFFF guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold
 
