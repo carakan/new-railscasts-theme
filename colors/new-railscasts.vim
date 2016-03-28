@@ -112,20 +112,20 @@ hi Title                     guifg=#FFFFFF ctermfg=15
 "rubyConstant
 hi Type                      guifg=#DA4939 gui=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
-hi Special                   guifg=#005f00 ctermfg=22
+hi Special                   guifg=#e58332 ctermfg=22
 hi Operator                  guifg=#FFC66D ctermfg=73
 hi Tag                       guifg=#FFC66D ctermfg=73
 hi Label                     guifg=#FFC66D ctermfg=73
 
 " Indentation
-hi IndentGuidesOdd  ctermbg=239 guibg=#49381f
-hi IndentGuidesEven ctermbg=237 guibg=#3a3a3a
+hi IndentGuidesOdd  ctermbg=239 guibg=#333333
+hi IndentGuidesEven ctermbg=237 guibg=#3f311d
 
 " Diffs
 hi DiffAdd                   guifg=#e4e4e4 guibg=#519F50 ctermfg=254 ctermbg=22
-hi DiffDelete                guifg=#000000 guibg=#660000 gui=bold ctermfg=16 ctermbg=52 cterm=bold
+hi DiffDelete                guifg=#e4e4e4 guibg=#660000 gui=bold ctermfg=16 ctermbg=52 cterm=bold
 hi DiffChange                guifg=#FFFFFF guibg=#870087 ctermfg=15 ctermbg=90
-hi DiffText                  guifg=#FFFFFF guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold
+hi DiffText                  guifg=#FFC66D guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold
 
 hi diffAdded                 guifg=#008700 ctermfg=28
 hi diffRemoved               guifg=#800000 ctermfg=1
