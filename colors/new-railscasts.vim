@@ -28,7 +28,7 @@ hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ct
 " hi StatusLine                guibg=#2B2B2B gui=NONE guifg=#E6E1DC
 " hi StatusLineNC              guibg=#2B2B2B gui=NONE
 hi! link CursorColumn ColorColumn
-hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444
+hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444 ctermfg=white ctermbg=234
 hi CursorLineNr              guifg=#b7b7ff guibg=#353535 ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 highlight SignColumn guibg=#353535
