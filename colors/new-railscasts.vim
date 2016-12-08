@@ -9,18 +9,18 @@
 " Some parts of this theme were borrowed from the well-documented Lucius theme [2].
 "
 
-set background=dark
+let g:colors_name = "new-railscasts"
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "new-railscasts"
 highlight clear SignColumn
+set background=dark
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15   
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
-hi Search                    guibg=#ddd6ff ctermfg=NONE ctermbg=236 cterm=underline
+hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#004568 ctermbg=60
 hi LineNr                    guifg=#888888 guibg=#353535  ctermfg=242
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
@@ -132,6 +132,11 @@ hi diffRemoved               guifg=#800000 ctermfg=1
 hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 
+
+hi javaScriptOperator guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptBraces guifg=#dd7927 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptNull guifg=#dd7927 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
 " Ruby
 " ----
 hi rubyTodo                  guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
@@ -179,3 +184,25 @@ hi link htmlEndTag           xmlEndTag
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#5fff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
 hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD
+
+
+
+let g:terminal_color_foreground = "#282828"
+let g:terminal_color_background = "#eeeeee"
+let g:terminal_color_0 = "#282828"
+let g:terminal_color_1 = "#f43753"
+let g:terminal_color_2 = "#c9d05c"
+let g:terminal_color_3 = "#ffc24b"
+let g:terminal_color_4 = "#b3deef"
+let g:terminal_color_5 = "#d3b987"
+let g:terminal_color_6 = "#73cef4"
+let g:terminal_color_7 = "#eeeeee"
+let g:terminal_color_8 = "#1d1d1d"
+let g:terminal_color_9 = "#f43753"
+let g:terminal_color_10 = "#c9d05c"
+let g:terminal_color_11 = "#ffc24b"
+let g:terminal_color_12 = "#b3deef"
+let g:terminal_color_13 = "#d3b987"
+let g:terminal_color_14 = "#73cef4"
+let g:terminal_color_15 = "#ffffff"
+
