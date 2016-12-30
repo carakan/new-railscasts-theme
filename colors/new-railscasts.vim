@@ -84,38 +84,38 @@ hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Define                    guifg=#CC7833 ctermfg=173
 "rubyInterpolation
 hi Delimiter                 guifg=#519F50
-hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE
+hi WarningMsg                guifg=#DA4939 guibg=NONE ctermfg=1 ctermbg=NONE
 "rubyError, rubyInvalidVariable
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 "rubyFunction
-hi Function                  guifg=#FFC66D gui=NONE ctermfg=221 cterm=NONE
+hi! Function                  guifg=#FFC66D guibg=NONE ctermfg=221 cterm=NONE
 "rubyIdentifier: @var, @@var, $var, etc
-hi Identifier                guifg=#b7b7ff gui=NONE ctermfg=73 cterm=NONE
+hi Identifier                guifg=#b7b7ff guibg=NONE ctermfg=73 cterm=NONE
 "rubyInclude: include, autoload, extend, load, require
-hi Include                   guifg=#CC7833 gui=NONE ctermfg=173 cterm=NONE
+hi Include                   guifg=#CC7833  guibg=NONE ctermfg=173 cterm=NONE
 "rubyKeyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
 hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
 " same as define
-hi Macro                     guifg=#CC7833 gui=NONE ctermfg=172
+hi Macro                     guifg=#CC7833  guibg=NONE ctermfg=172
 "rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
 hi Boolean                   guifg=#47a3e5 ctermfg=107
 " #if, #else, #endif
-hi PreCondit                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
+hi PreCondit                 guifg=#CC7833  guibg=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
-hi PreProc                   guifg=#CC7833 gui=NONE ctermfg=103
+hi PreProc                   guifg=#CC7833  guibg=NONE ctermfg=103
 "rubyControl, rubyAccess, rubyEval: case, begin, do, for, if unless, while, until else, etc.
-hi Statement                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
+hi Statement                 guifg=#CC7833 guibg=NONE ctermfg=172 cterm=NONE
 "rubyString
-hi String                    guifg=#79d600 ctermfg=107
-hi Title                     guifg=#FFFFFF ctermfg=15
+hi String                    guifg=#79d600 guibg=NONE ctermfg=107
+hi! Title                    guifg=#FFFFFF guibg=NONE ctermfg=15
 "rubyConstant
-hi Type                      guifg=#DA4939 gui=NONE
-hi PreProc                   guifg=#ff8700 ctermfg=208
-hi Special                   guifg=#e58332 ctermfg=22
-hi Operator                  guifg=#FFC66D ctermfg=73
-hi Tag                       guifg=#FFC66D ctermfg=73
-hi Label                     guifg=#FFC66D ctermfg=73
+hi Type                      guifg=#af9ddd guibg=NONE
+hi PreProc                   guifg=#ff8700 guibg=NONE ctermfg=208
+hi Special                   guifg=#ff8700 guibg=NONE ctermfg=22
+hi Operator                  guifg=#CC7833 guibg=NONE ctermfg=73
+hi Tag                       guifg=#CC7833 guibg=NONE ctermfg=73
+hi Label                     guifg=#CC7833 guibg=NONE ctermfg=73
 
 " Indentation
 hi IndentGuidesOdd  ctermbg=239 guibg=#333333
@@ -133,9 +133,9 @@ hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 
 
-hi javaScriptOperator guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javaScriptBraces guifg=#dd7927 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javaScriptNull guifg=#dd7927 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptOperator        guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptBraces          guifg=#dd7927 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptNull            guifg=#dd7927 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Ruby
 " ----
@@ -164,11 +164,14 @@ hi! link mailSubject mailHeaderKey
 
 " Spell
 " ----
-hi SpellBad                  guifg=#D70000 guibg=NONE gui=undercurl ctermfg=160 ctermbg=NONE cterm=underline
-hi SpellRare                 guifg=#df5f87 guibg=NONE gui=underline ctermfg=168 ctermbg=NONE cterm=underline
-hi SpellCap                  guifg=#dfdfff guibg=NONE gui=underline ctermfg=189 ctermbg=NONE cterm=underline
-hi SpellLocal                guifg=#00FFFF guibg=NONE gui=undercurl ctermfg=51 ctermbg=NONE cterm=underline
-hi MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
+hi! SpellBad                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=underline
+hi! SpellRare                 guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
+hi! SpellCap                  guifg=#dfdfff guibg=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=underline
+hi! SpellLocal                guifg=#00FFFF guibg=NONE gui=NONE ctermfg=51 ctermbg=NONE cterm=underline
+hi! MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
+
+hi! Question                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
+
 
 " XML
 " ---
@@ -184,25 +187,3 @@ hi link htmlEndTag           xmlEndTag
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#5fff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
 hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD
-
-
-
-let g:terminal_color_foreground = "#282828"
-let g:terminal_color_background = "#eeeeee"
-let g:terminal_color_0 = "#282828"
-let g:terminal_color_1 = "#f43753"
-let g:terminal_color_2 = "#c9d05c"
-let g:terminal_color_3 = "#ffc24b"
-let g:terminal_color_4 = "#b3deef"
-let g:terminal_color_5 = "#d3b987"
-let g:terminal_color_6 = "#73cef4"
-let g:terminal_color_7 = "#eeeeee"
-let g:terminal_color_8 = "#1d1d1d"
-let g:terminal_color_9 = "#f43753"
-let g:terminal_color_10 = "#c9d05c"
-let g:terminal_color_11 = "#ffc24b"
-let g:terminal_color_12 = "#b3deef"
-let g:terminal_color_13 = "#d3b987"
-let g:terminal_color_14 = "#73cef4"
-let g:terminal_color_15 = "#ffffff"
-
