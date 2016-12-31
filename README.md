@@ -1,7 +1,7 @@
 # Vim Railscasts Colorscheme
 
-A color scheme based on the [RailsCasts](http://railscasts.com) TextMate theme 
-with decent support for both GUI and terminal.
+A (new) color scheme based on the [RailsCasts](http://railscasts.com) TextMate theme 
+with support to GUI (24 bit) colors.
 
 
 ## Installation
@@ -13,22 +13,24 @@ git submodule for your plugin:
 
 ```sh
 $ cd ~/.vim
-$ git submodule add git@github.com:jpo/vim-railscasts-theme.git bundle/railscasts-theme
+$ git submodule add git@github.com:carakan/new-railscasts-theme.git bundle/railscasts-theme
 ```
 
 ### Vundle
 
 Install [Vundle](https://github.com/gmarik/Vundle.vim) and then add this theme
-as a plugin to your ```.vimrc```.
+as a plugin to your `.vimrc`.
 
-```vim
-Plugin jpo/vim-railscasts-theme
+```
+Plugin 'carakan/new-railscasts-theme'
 ```
 
 ### Manually
 
-Copy ```railscasts.vim``` into ```~/.vim/colors/``` (Unix) or 
-```vimfiles/colors/``` (Windows).
+Copy `railscasts.vim` into `~/.vim/colors/` (Unix) or 
+`vimfiles/colors/` (Windows).
 
-### This version only works for GUI version or NeoVim with $NVIM_TUI_ENABLE_TRUE_COLOR=1
+### Notes
+
+I still working on select some of colors.
 

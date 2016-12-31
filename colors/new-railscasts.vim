@@ -25,11 +25,10 @@ hi Visual                    guibg=#004568 ctermbg=60
 hi LineNr                    guifg=#888888 guibg=#353535  ctermfg=242
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
-" hi StatusLine                guibg=#2B2B2B gui=NONE guifg=#E6E1DC
-" hi StatusLineNC              guibg=#2B2B2B gui=NONE
+
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444 ctermfg=white ctermbg=234
-hi CursorLineNr              guifg=#b7b7ff guibg=#353535 ctermfg=248
+hi CursorLineNr              guifg=#d09bff guibg=#353535 ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 highlight SignColumn guibg=#353535
 
@@ -74,8 +73,8 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 " thumb of the scrollbar in the popup
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
-"rubyComment
-hi Comment                   guifg=#BC9458 gui=italic ctermfg=137
+" Comment
+hi Comment                   guifg=#BC9458 guibg=NONE gui=italic ctermfg=137 cterm=italic
 hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=94
 
 "rubyPseudoVariable: nil, self, symbols, etc
@@ -90,7 +89,7 @@ hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 "rubyFunction
 hi! Function                  guifg=#FFC66D guibg=NONE ctermfg=221 cterm=NONE
 "rubyIdentifier: @var, @@var, $var, etc
-hi Identifier                guifg=#b7b7ff guibg=NONE ctermfg=73 cterm=NONE
+hi Identifier                guifg=#d09bff guibg=NONE ctermfg=73 cterm=NONE
 "rubyInclude: include, autoload, extend, load, require
 hi Include                   guifg=#CC7833  guibg=NONE ctermfg=173 cterm=NONE
 "rubyKeyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
@@ -104,13 +103,13 @@ hi Boolean                   guifg=#47a3e5 ctermfg=107
 hi PreCondit                 guifg=#CC7833  guibg=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
 hi PreProc                   guifg=#CC7833  guibg=NONE ctermfg=103
-"rubyControl, rubyAccess, rubyEval: case, begin, do, for, if unless, while, until else, etc.
+" Control, Access, Eval: case, begin, do, for, if unless, while, until else, etc.
 hi Statement                 guifg=#CC7833 guibg=NONE ctermfg=172 cterm=NONE
-"rubyString
+" String
 hi String                    guifg=#79d600 guibg=NONE ctermfg=107
 hi! Title                    guifg=#FFFFFF guibg=NONE ctermfg=15
-"rubyConstant
-hi Type                      guifg=#af9ddd guibg=NONE
+" Constant
+hi Type                      guifg=#df5f5f guibg=NONE gui=NONE
 hi PreProc                   guifg=#ff8700 guibg=NONE ctermfg=208
 hi Special                   guifg=#ff8700 guibg=NONE ctermfg=22
 hi Operator                  guifg=#CC7833 guibg=NONE ctermfg=73
@@ -139,16 +138,16 @@ hi javaScriptNull            guifg=#dd7927 ctermfg=215 guibg=NONE ctermbg=NONE g
 
 " Ruby
 " ----
-hi rubyTodo                  guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
+hi rubyTodo                  guifg=#fc5858 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
 hi rubyClass                 guifg=#dd7927 ctermfg=15
-hi rubyConstant              guifg=#df5f5f ctermfg=167
+hi rubyConstant              guifg=#fc5858 ctermfg=167
 hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
-hi rubyBlockParameter        guifg=#b7b7ff ctermfg=189
+hi rubyBlockParameter        guifg=#d09bff ctermfg=189
 hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221
 hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
-hi rubyInstanceVariable      guifg=#b7b7ff ctermfg=189
-hi rubyPredefinedConstant    guifg=#df5f5f ctermfg=167
-hi rubyLocalVariableOrMethod guifg=#b7b7ff ctermfg=189
+hi rubyInstanceVariable      guifg=#d09bff ctermfg=189
+hi rubyPredefinedConstant    guifg=#fc5858 ctermfg=167
+hi rubyLocalVariableOrMethod guifg=#d09bff ctermfg=189
 
 " Python
 " ------
@@ -169,7 +168,6 @@ hi! SpellRare                 guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 cter
 hi! SpellCap                  guifg=#dfdfff guibg=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=underline
 hi! SpellLocal                guifg=#00FFFF guibg=NONE gui=NONE ctermfg=51 ctermbg=NONE cterm=underline
 hi! MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
-
 hi! Question                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
 
 
