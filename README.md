@@ -30,6 +30,12 @@ Plugin 'carakan/new-railscasts-theme'
 Copy `railscasts.vim` into `~/.vim/colors/` (Unix) or 
 `vimfiles/colors/` (Windows).
 
+and set your Colorscheme:
+
+```
+colorscheme new-railscasts
+```
+
 ### Notes
 
 I still working on select some of colors.
