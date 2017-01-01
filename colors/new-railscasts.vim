@@ -17,20 +17,20 @@ endif
 highlight clear SignColumn
 set background=dark
 
-hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
+hi Normal                    guifg=#E6E1DC guibg=#212121 ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15   
-hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
+hi CursorLine                guibg=#282828 ctermbg=235 cterm=NONE
 hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#004568 ctermbg=60
-hi LineNr                    guifg=#888888 guibg=#353535  ctermfg=242
+hi LineNr                    guifg=#666666 guibg=#2d2d2d  ctermfg=242
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
 
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444 ctermfg=white ctermbg=234
-hi CursorLineNr              guifg=#d7b0fc guibg=#353535 ctermfg=248
+hi CursorLineNr              guifg=#d7b0fc guibg=#2d2d2d ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
-highlight SignColumn guibg=#353535
+highlight SignColumn guibg=#2d2d2d
 
 " StatusLine
 " Bold
@@ -80,7 +80,7 @@ hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=94
 "rubyPseudoVariable: nil, self, symbols, etc
 hi Constant                  guifg=#6D9CBE ctermfg=73
 " rubyClass, rubyModule, rubyDefine def, end, include, etc
-hi Define                    guifg=#d8690f ctermfg=173
+hi Define                    guifg=#CC7833 ctermfg=173
 " Interpolation
 hi Delimiter                 guifg=#519F50
 hi WarningMsg                guifg=#DA4939 guibg=NONE ctermfg=1 ctermbg=NONE
@@ -91,34 +91,34 @@ hi! Function                  guifg=#FFC66D guibg=NONE ctermfg=221 cterm=NONE
 " Identifier: @var, @@var, $var, etc
 hi Identifier                guifg=#d7b0fc guibg=NONE ctermfg=73 cterm=NONE
 " Include: include, autoload, extend, load, require
-hi Include                   guifg=#d8690f  guibg=NONE ctermfg=173 cterm=NONE
+hi Include                   guifg=#CC7833  guibg=NONE ctermfg=173 cterm=NONE
 " Keyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
 hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
 " same as define
-hi Macro                     guifg=#d8690f  guibg=NONE ctermfg=172
+hi Macro                     guifg=#CC7833  guibg=NONE ctermfg=172
 "rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
 hi Boolean                   guifg=#47a3e5 ctermfg=107
 " #if, #else, #endif
-hi PreCondit                 guifg=#d8690f  guibg=NONE ctermfg=172 cterm=NONE
+hi PreCondit                 guifg=#CC7833  guibg=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
-hi PreProc                   guifg=#ea9148  guibg=NONE ctermfg=103
+hi PreProc                   guifg=#CC7833  guibg=NONE ctermfg=103
 " Control, Access, Eval: case, begin, do, for, if unless, while, until else, etc.
-hi Statement                 guifg=#ea9148 guibg=NONE ctermfg=172 cterm=NONE
+hi Statement                 guifg=#CC7833 guibg=NONE ctermfg=172 cterm=NONE
 " String
 hi String                    guifg=#79d600 guibg=NONE ctermfg=107
 hi! Title                    guifg=#FFFFFF guibg=NONE ctermfg=15
 " Constant
-hi Type                      guifg=#ff665b guibg=NONE gui=NONE
+hi Type                      guifg=#ff5d4f guibg=NONE gui=NONE
 hi PreProc                   guifg=#ff8700 guibg=NONE ctermfg=208
 hi Special                   guifg=#ff8700 guibg=NONE ctermfg=22
-hi Operator                  guifg=#ea9148 guibg=NONE ctermfg=73
-hi Tag                       guifg=#ea9148 guibg=NONE ctermfg=73
-hi Label                     guifg=#ea9148 guibg=NONE ctermfg=73
+hi Operator                  guifg=#CC7833 guibg=NONE ctermfg=73
+hi Tag                       guifg=#CC7833 guibg=NONE ctermfg=73
+hi Label                     guifg=#CC7833 guibg=NONE ctermfg=73
 
 " Indentation
-hi IndentGuidesOdd  ctermbg=239 guibg=#333333
-hi IndentGuidesEven ctermbg=237 guibg=#3f311d
+hi IndentGuidesOdd  ctermbg=239 guibg=#282828
+hi IndentGuidesEven ctermbg=237 guibg=#332717
 
 " Diffs
 hi DiffAdd                   guifg=#e4e4e4 guibg=#519F50 ctermfg=254 ctermbg=22
@@ -185,4 +185,3 @@ hi link htmlEndTag           xmlEndTag
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#5fff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
 hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD
-
