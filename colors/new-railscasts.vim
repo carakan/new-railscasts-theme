@@ -152,7 +152,7 @@ hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
 
 " JAVASCRIPT
 "
-hi jsFunctionKey              guifg=#47a3e5 ctermfg=221 gui=italic
+hi jsFunction                 guifg=#47a3e5 ctermfg=221 gui=italic
 hi jsArrowFunction            guifg=#47a3e5 ctermfg=221 gui=bold
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 
@@ -161,6 +161,14 @@ hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 hi pythonExceptions          guifg=#ffaf87 ctermfg=216
 hi pythonDoctest             guifg=#8787ff ctermfg=105
 hi pythonDoctestValue        guifg=#87d7af ctermfg=115
+
+" Elixir
+"
+hi elixirAtom                 guifg=#47a3e5 ctermfg=221 gui=italic
+hi elixirTuple                guifg=#47a3e5 ctermfg=221 gui=italic
+hi elixirDefine               guifg=#CC7833 ctermfg=173 gui=bold
+hi elixirPrivateDefine        guifg=#CC7833 ctermfg=173 gui=bold
+
 
 " Mail
 " ----
