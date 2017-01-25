@@ -171,6 +171,11 @@ hi elixirPrivateDefine        guifg=#CC7833 ctermfg=173 gui=bold
 hi elixirModuleDefine         guifg=#CC7833 ctermfg=173 gui=bold
 hi elixirBlock                guifg=#CC7833 ctermfg=173 gui=bold
 
+" Emeber.js
+"
+hi hbsMustache                guifg=#47a3e5 ctermfg=221 gui=bold
+hi hbsProperty                guifg=#ff8700 ctermfg=221 gui=italic
+
 " Mail
 " ----
 hi mailEmail                 guifg=#87af5f ctermfg=107 gui=italic cterm=underline
