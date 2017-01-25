@@ -152,7 +152,7 @@ hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
 
 " JAVASCRIPT
 "
-hi jsFunction                 guifg=#47a3e5 ctermfg=221 gui=italic
+hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=bold-italic
 hi jsArrowFunction            guifg=#47a3e5 ctermfg=221 gui=bold
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 
@@ -168,7 +168,8 @@ hi elixirAtom                 guifg=#47a3e5 ctermfg=221 gui=italic
 hi elixirTuple                guifg=#47a3e5 ctermfg=221 gui=italic
 hi elixirDefine               guifg=#CC7833 ctermfg=173 gui=bold
 hi elixirPrivateDefine        guifg=#CC7833 ctermfg=173 gui=bold
-
+hi elixirModuleDefine         guifg=#CC7833 ctermfg=173 gui=bold
+hi elixirBlock                guifg=#CC7833 ctermfg=173 gui=bold
 
 " Mail
 " ----
@@ -196,6 +197,7 @@ hi xmlEndTag                 guifg=#dfaf5f ctermfg=179
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
+hi htmlArg                   guifg=#ff8700 ctermfg=221 gui=italic
 
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#5fff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
