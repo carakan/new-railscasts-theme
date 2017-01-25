@@ -18,7 +18,7 @@ highlight clear SignColumn
 set background=dark
 
 hi Normal                    guifg=#E6E1DC guibg=#212121 ctermfg=white ctermbg=234
-hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15   
+hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#282828 ctermbg=235 cterm=NONE
 hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#004568 ctermbg=60
@@ -51,17 +51,17 @@ hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ct
 " -----
 " line used for closed folds
 hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
- 
+
 " Invisible Characters
 " ------------------
 hi NonText                   guifg=#777777 gui=NONE
 hi SpecialKey                guifg=#777777 gui=NONE
- 
+
 " Misc
 " ----
 " directory names and other special names in listings
 hi Directory                 guifg=#A5C261 gui=NONE
- 
+
 " Popup Menu
 " ----------
 " normal item in popup
@@ -143,7 +143,8 @@ hi rubyClass                 guifg=#dd7927 ctermfg=15
 hi rubyConstant              guifg=#fc5858 ctermfg=167
 hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
 hi rubyBlockParameter        guifg=#d7b0fc ctermfg=189
-hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221
+hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221 gui=italic
+hi rubySymbol                guifg=#6D9CBE ctermfg=73 gui=italic
 hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#d7b0fc ctermfg=189
 hi rubyPredefinedConstant    guifg=#fc5858 ctermfg=167
