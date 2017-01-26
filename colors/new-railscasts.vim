@@ -153,8 +153,11 @@ hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
 " JAVASCRIPT
 "
 hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=italic
-hi jsArrowFunction            guifg=#ff8700 ctermfg=221 gui=bold
+hi jsFunctionKey                 guifg=#ff8700 ctermfg=221 gui=italic
+hi jsArrowFunction            guifg=#ff8700 ctermfg=221
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
+hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=italic
+hi jsStorageClass             guifg=#fc5858 gui-italic
 
 " Python
 " ------
