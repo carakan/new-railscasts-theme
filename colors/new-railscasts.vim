@@ -153,7 +153,7 @@ hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
 " JAVASCRIPT
 "
 hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=italic
-hi jsArrowFunction            guifg=#ff8700 ctermfg=221 gui=bold
+hi jsArrowFunction            guifg=#ff8700 ctermfg=221
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 
 " Python
@@ -164,17 +164,16 @@ hi pythonDoctestValue        guifg=#87d7af ctermfg=115
 
 " Elixir
 "
-hi elixirAtom                 guifg=#47a3e5 ctermfg=221 gui=italic
-hi elixirTuple                guifg=#47a3e5 ctermfg=221 gui=italic
+hi elixirAtom                 guifg=#6D9CBE ctermfg=221 gui=bold
+hi elixirTuple                guifg=#6D9CBE ctermfg=221 gui=bold
 hi elixirDefine               guifg=#CC7833 ctermfg=173 gui=bold
 hi elixirPrivateDefine        guifg=#CC7833 ctermfg=173 gui=bold
 hi elixirModuleDefine         guifg=#CC7833 ctermfg=173 gui=bold
-hi elixirBlock                guifg=#CC7833 ctermfg=173 gui=bold
 
-" Emeber.js
+" Ember.js
 "
-hi hbsMustache                guifg=#47a3e5 ctermfg=221 gui=bold
 hi hbsProperty                guifg=#ff8700 ctermfg=221 gui=italic
+hi mustacheHandlebars         guifg=#CC7833 ctermfg=173 gui=bold
 
 " Mail
 " ----
@@ -190,7 +189,6 @@ hi! SpellCap                  guifg=#dfdfff guibg=NONE gui=NONE ctermfg=189 cter
 hi! SpellLocal                guifg=#00FFFF guibg=NONE gui=NONE ctermfg=51 ctermbg=NONE cterm=underline
 hi! MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
 hi! Question                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
-
 
 " XML
 " ---
