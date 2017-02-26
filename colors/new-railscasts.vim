@@ -20,14 +20,14 @@ set background=dark
 hi Normal                    guifg=#E6E1DC guibg=#212121 ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#282828 ctermbg=235 cterm=NONE
-hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236 cterm=underline
+hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236
 hi Visual                    guibg=#004568 ctermbg=60
-hi LineNr                    guifg=#666666 guibg=#2d2d2d  ctermfg=242
+hi LineNr                    guifg=#707070 guibg=#2d2d2d  ctermfg=242
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
 
 hi! link CursorColumn ColorColumn
-hi VertSplit                 guibg=#2B2B2B gui=NONE guifg=#444444 ctermfg=white ctermbg=234
+hi VertSplit                 guibg=#212121 gui=bold guifg=#444444 ctermfg=white ctermbg=234
 hi CursorLineNr              guifg=#d7b0fc guibg=#2d2d2d ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
 highlight SignColumn guibg=#2d2d2d
@@ -158,6 +158,13 @@ hi jsArrowFunction            guifg=#ff8700 ctermfg=221
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=italic
 hi jsStorageClass             guifg=#fc5858 ctermfg=167 gui=italic
+
+" Typescript
+"
+hi typescriptFuncKeyword      guifg=#ff8700 ctermfg=221 gui=italic
+hi typescriptIdentifier       guifg=#d7b0fc ctermfg=189 gui=italic
+hi typescriptBoolean          guifg=#47a3e5 gui=italic
+hi typescriptNull             guifg=#47a3e5 gui=italic
 
 " Python
 " ------
