@@ -165,6 +165,7 @@ hi typescriptFuncKeyword      guifg=#ff8700 ctermfg=221 gui=italic
 hi typescriptIdentifier       guifg=#d7b0fc ctermfg=189 gui=italic
 hi typescriptBoolean          guifg=#47a3e5 gui=italic
 hi typescriptNull             guifg=#47a3e5 gui=italic
+hi typescriptType             guifg=#ff8700 ctermfg=167 gui=italic
 
 " Python
 " ------
