@@ -98,7 +98,7 @@ hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
 hi Macro                     guifg=#CC7833  guibg=NONE ctermfg=172
 "rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
-hi Boolean                   guifg=#47a3e5 ctermfg=107
+hi Boolean                   guifg=#47a3e5 ctermfg=107 gui=italic
 " #if, #else, #endif
 hi PreCondit                 guifg=#CC7833  guibg=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
@@ -149,6 +149,7 @@ hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#d7b0fc ctermfg=189
 hi rubyPredefinedConstant    guifg=#fc5858 ctermfg=167
 hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
+hi rubyBoolean                guifg=#47a3e5 gui=italic
 
 " JAVASCRIPT
 "
@@ -158,6 +159,7 @@ hi jsArrowFunction            guifg=#ff8700 ctermfg=221
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=italic
 hi jsStorageClass             guifg=#fc5858 ctermfg=167 gui=italic
+hi jsNull                     guifg=#ff8700 ctermfg=221 gui=italic
 
 " Typescript
 "
@@ -185,6 +187,17 @@ hi elixirModuleDefine         guifg=#CC7833 ctermfg=173 gui=bold
 "
 hi hbsProperty                guifg=#ff8700 ctermfg=221 gui=italic
 hi mustacheHandlebars         guifg=#CC7833 ctermfg=173 gui=bold
+
+" CSS
+hi cssClassName                 guifg=#FFC66D gui=italic
+hi cssIdentifier                guifg=#47a3e5 gui=italic
+
+" JSON
+hi jsonBoolean                 guifg=#47a3e5 gui=italic
+hi jsonNull                    guifg=#47a3e5 gui=italic
+
+" yaml
+hi yamlKey                    guifg=#d7b0fc ctermfg=189 gui=bold
 
 " Mail
 " ----
