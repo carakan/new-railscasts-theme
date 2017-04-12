@@ -38,7 +38,7 @@ hi User1                     guifg=#eeeeee guibg=#606060 gui=bold ctermfg=255 ct
 " Yellow
 hi User2                     guifg=#FFAF00 guibg=#606060 gui=bold ctermfg=214 ctermbg=241 cterm=bold
 " Green
-hi User3                     guifg=#5fff00 guibg=#606060 gui=bold ctermfg=82 ctermbg=241 cterm=bold
+hi User3                     guifg=#15d300 guibg=#606060 gui=bold ctermfg=82 ctermbg=241 cterm=bold
 " Red
 hi User4                     guifg=#870000 guibg=#606060 gui=bold ctermfg=88 ctermbg=241 cterm=bold
 hi User5                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
@@ -49,7 +49,6 @@ hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ct
 
 " Folds
 " -----
-" line used for closed folds
 hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
 
 " Invisible Characters
@@ -106,7 +105,7 @@ hi PreProc                   guifg=#CC7833  guibg=NONE ctermfg=103
 " Control, Access, Eval: case, begin, do, for, if unless, while, until else, etc.
 hi Statement                 guifg=#CC7833 guibg=NONE ctermfg=172 cterm=NONE
 " String
-hi String                    guifg=#79d600 guibg=NONE ctermfg=107
+hi String                    guifg=#74d155 guibg=NONE ctermfg=107
 hi! Title                    guifg=#FFFFFF guibg=NONE ctermfg=15
 " Constant
 hi Type                      guifg=#ff5d4f guibg=NONE gui=NONE
@@ -149,7 +148,7 @@ hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#d7b0fc ctermfg=189
 hi rubyPredefinedConstant    guifg=#fc5858 ctermfg=167
 hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
-hi rubyBoolean                guifg=#47a3e5 gui=italic
+hi rubyBoolean               guifg=#47a3e5 gui=italic
 
 " JAVASCRIPT
 "
@@ -220,12 +219,11 @@ hi xmlTag                    guifg=#dfaf5f ctermfg=179
 hi xmlTagName                guifg=#dfaf5f ctermfg=179
 hi xmlEndTag                 guifg=#dfaf5f ctermfg=179
 
-
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
 hi htmlArg                   guifg=#ff8700 ctermfg=221 gui=italic
 
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
-hi checkboxDone guifg=#5fff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
+hi checkboxDone guifg=#15d300 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
 hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD
