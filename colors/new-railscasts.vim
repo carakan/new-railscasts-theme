@@ -113,7 +113,7 @@ hi PreProc                   guifg=#ff8700 guibg=NONE ctermfg=208
 hi Special                   guifg=#ff8700 guibg=NONE ctermfg=22
 hi Operator                  guifg=#CC7833 guibg=NONE ctermfg=73
 hi Tag                       guifg=#CC7833 guibg=NONE ctermfg=73
-hi Label                     guifg=#CC7833 guibg=NONE ctermfg=73
+hi Label                     guifg=#6D9CBE ctermfg=221 gui=bold
 
 " Indentation
 hi IndentGuidesOdd  ctermbg=239 guibg=#282828
