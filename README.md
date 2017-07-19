@@ -36,7 +36,12 @@ and set your Colorscheme:
 colorscheme new-railscasts
 ```
 
+### GUI (neovim) :
+<img src="https://raw.github.com/carakan/new-railscasts-theme/master/screenshot_gui.png" />
+
 ### Notes
 
-I am still working on selecting some of colors.
+- Support for typescript, ruby, elixir, yaml, javascript and so on using [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+- Font in screenshot is [Haskling](https://github.com/i-tu/Hasklig)
+- I am still working on selecting some of colors.
 
