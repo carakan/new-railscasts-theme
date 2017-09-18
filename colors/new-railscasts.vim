@@ -74,7 +74,7 @@ hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 " Comment
 hi Comment                   guifg=#BC9458 guibg=NONE gui=italic ctermfg=137 cterm=italic
-hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=94
+hi Todo                      guifg=#df5f5f guibg=NONE gui=bold,italic ctermfg=94
 
 "rubyPseudoVariable: nil, self, symbols, etc
 hi Constant                  guifg=#6D9CBE ctermfg=73
@@ -156,7 +156,7 @@ hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=italic
 hi jsFunctionKey              guifg=#ff8700 ctermfg=221 gui=italic
 hi jsArrowFunction            guifg=#ff8700 ctermfg=221
 hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
-hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=italic
+hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=bold,italic
 hi jsStorageClass             guifg=#fc5858 ctermfg=167 gui=italic
 hi jsNull                     guifg=#ff8700 ctermfg=221 gui=italic
 
