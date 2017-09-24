@@ -73,7 +73,7 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 " Comment
-hi Comment                   guifg=#d6b335 guibg=NONE gui=italic ctermfg=137 cterm=italic
+hi Comment                   guifg=#bc7f23 guibg=NONE gui=italic ctermfg=137 cterm=italic
 hi Todo                      guifg=#df5f5f guibg=NONE gui=bold,italic ctermfg=94
 
 "rubyPseudoVariable: nil, self, symbols, etc
@@ -85,8 +85,8 @@ hi Delimiter                 guifg=#519F50
 hi WarningMsg                guifg=#DA4939 guibg=NONE ctermfg=1 ctermbg=NONE
 " Error, rubyInvalidVariable
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
-"rubyFunction
-hi Function                  guifg=#FFC66D gui=bold,italic guibg=NONE ctermfg=221 cterm=NONE
+" Function
+hi Function                  guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 " Identifier: @var, @@var, $var, etc
 hi Identifier                guifg=#d7b0fc guibg=NONE ctermfg=73 cterm=NONE
 " Include: include, autoload, extend, load, require
@@ -159,6 +159,7 @@ hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
 hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=bold,italic
 hi jsStorageClass             guifg=#fc5858 ctermfg=167 gui=italic
 hi jsNull                     guifg=#ff8700 ctermfg=221 gui=italic
+hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 
 " Typescript
 "
