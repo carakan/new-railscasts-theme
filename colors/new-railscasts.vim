@@ -73,7 +73,7 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 " Comment
-hi Comment                   guifg=#BC9458 guibg=NONE gui=italic ctermfg=137 cterm=italic
+hi Comment                   guifg=#d6b335 guibg=NONE gui=italic ctermfg=137 cterm=italic
 hi Todo                      guifg=#df5f5f guibg=NONE gui=bold,italic ctermfg=94
 
 "rubyPseudoVariable: nil, self, symbols, etc
@@ -86,7 +86,7 @@ hi WarningMsg                guifg=#DA4939 guibg=NONE ctermfg=1 ctermbg=NONE
 " Error, rubyInvalidVariable
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 "rubyFunction
-hi! Function                  guifg=#FFC66D guibg=NONE ctermfg=221 cterm=NONE
+hi Function                  guifg=#FFC66D gui=bold,italic guibg=NONE ctermfg=221 cterm=NONE
 " Identifier: @var, @@var, $var, etc
 hi Identifier                guifg=#d7b0fc guibg=NONE ctermfg=73 cterm=NONE
 " Include: include, autoload, extend, load, require
