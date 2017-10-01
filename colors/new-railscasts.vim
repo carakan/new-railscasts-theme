@@ -142,7 +142,7 @@ hi rubyClass                 guifg=#dd7927 ctermfg=15
 hi rubyConstant              guifg=#fc5858 ctermfg=167
 hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
 hi rubyBlockParameter        guifg=#d7b0fc ctermfg=189
-hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221 gui=italic
+hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221 gui=italic,bold
 hi rubySymbol                guifg=#6D9CBE ctermfg=73 gui=bold
 hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#d7b0fc ctermfg=189
