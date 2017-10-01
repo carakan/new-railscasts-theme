@@ -177,16 +177,15 @@ hi pythonDoctestValue        guifg=#87d7af ctermfg=115
 
 " Elixir
 "
-hi elixirAtom                 guifg=#6D9CBE ctermfg=221 gui=bold
-hi elixirTuple                guifg=#6D9CBE ctermfg=221 gui=bold
-hi elixirDefine               guifg=#CC7833 ctermfg=173 gui=bold
-hi elixirPrivateDefine        guifg=#CC7833 ctermfg=173 gui=bold
-hi elixirModuleDefine         guifg=#CC7833 ctermfg=173 gui=bold
-
-" Ember.js
-"
-hi hbsProperty                guifg=#ff8700 ctermfg=221 gui=italic
-hi mustacheHandlebars         guifg=#CC7833 ctermfg=173 gui=bold
+hi elixirAtom                 guifg=#6D9CBE gui=bold
+hi elixirMapDelimiter         guifg=#CC7833 gui=bold
+hi elixirTupleDelimiter       guifg=#CC7833 gui=bold
+hi elixirMap                  guifg=#CC7833 gui=bold
+hi elixirTuple                guifg=#CC7833 gui=bold
+hi elixirOperator             guifg=#ff8700
+hi elixirDefine               guifg=#CC7833 gui=bold
+hi elixirPrivateDefine        guifg=#CC7833 gui=bold,italic
+hi elixirModuleDefine         guifg=#CC7833 gui=bold
 
 " CSS
 hi cssClassName                 guifg=#FFC66D gui=italic
@@ -223,12 +222,13 @@ hi xmlEndTag                 guifg=#dfaf5f ctermfg=179
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
-hi htmlArg                   guifg=#ff8700 ctermfg=221 gui=italic
+hi htmlArg                   guifg=#ff8700 gui=italic
 
 " HBS
 " ---
-hi hbsMustache              guifg=#ff8700 ctermfg=221 gui=italic,bold
+hi hbsHandles               guifg=#CC7833 gui=bold
 hi hbsArg                   guifg=#ff8700 gui=italic
+hi hbsKeyword               guifg=#dfaf5f gui=bold,italic
 
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#15d300 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
