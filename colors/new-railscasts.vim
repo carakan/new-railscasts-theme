@@ -190,6 +190,9 @@ hi elixirModuleDefine         guifg=#CC7833 gui=bold
 " CSS
 hi cssClassName                 guifg=#FFC66D gui=italic
 hi cssIdentifier                guifg=#47a3e5 gui=italic
+hi cssFontProp                  guifg=#6D9CBE gui=bold
+hi cssColorProp                 guifg=#6D9CBE gui=bold
+hi cssPositioningProp           guifg=#6D9CBE gui=bold
 
 " JSON
 hi jsonBoolean                 guifg=#47a3e5 gui=italic
@@ -215,9 +218,9 @@ hi! Question                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 cter
 
 " XML
 " ---
-hi xmlTag                    guifg=#dfaf5f ctermfg=179
-hi xmlTagName                guifg=#dfaf5f ctermfg=179
-hi xmlEndTag                 guifg=#dfaf5f ctermfg=179
+hi xmlTag                    guifg=#FFC66D ctermfg=179
+hi xmlTagName                guifg=#FFC66D ctermfg=179
+hi xmlEndTag                 guifg=#FFC66D ctermfg=179
 
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
@@ -228,7 +231,9 @@ hi htmlArg                   guifg=#ff8700 gui=italic
 " ---
 hi hbsHandles               guifg=#CC7833 gui=bold
 hi hbsArg                   guifg=#ff8700 gui=italic
-hi hbsKeyword               guifg=#dfaf5f gui=bold,italic
+hi hbsKeyword               guifg=#dfaf5f gui=italic
+hi hbsMustacheName          guifg=#FFC66D gui=NONE
+hi hbsPencilName            guifg=#dfaf5f gui=bold
 
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#15d300 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
