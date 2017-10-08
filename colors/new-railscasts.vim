@@ -130,11 +130,6 @@ hi diffRemoved               guifg=#800000 ctermfg=1
 hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 
-
-hi javaScriptOperator        guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javaScriptBraces          guifg=#dd7927 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javaScriptNull            guifg=#dd7927 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-
 " Ruby
 " ----
 hi rubyTodo                  guifg=#fc5858 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
@@ -163,11 +158,13 @@ hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 
 " Typescript
 "
-hi typescriptArrowFunc        guifg=#ff8700 ctermfg=221 gui=italic
-hi typescriptIdentifier       guifg=#d7b0fc ctermfg=189 gui=italic
+hi typescriptArrowFunc        guifg=#ff8700 gui=italic
+hi typescriptVariable         guifg=#d7b0fc gui=italic
 hi typescriptAsyncFuncKeyword guifg=#47a3e5 gui=italic
-hi typescriptType             guifg=#ff8700 ctermfg=167 gui=italic
-hi typescriptObjectLabel      guifg=#6D9CBE ctermfg=73 gui=bold
+hi typescriptType             guifg=#ff8700 gui=italic
+hi typescriptObjectLabel      guifg=#6D9CBE gui=bold
+hi typescriptFuncName         guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptMethodName       guifg=#FFC66D gui=bold,italic guibg=NONE
 
 " Python
 " ------
@@ -190,9 +187,10 @@ hi elixirModuleDefine         guifg=#CC7833 gui=bold
 " CSS
 hi cssClassName                 guifg=#FFC66D gui=italic
 hi cssIdentifier                guifg=#47a3e5 gui=italic
-hi cssFontProp                  guifg=#6D9CBE gui=bold
-hi cssColorProp                 guifg=#6D9CBE gui=bold
-hi cssPositioningProp           guifg=#6D9CBE gui=bold
+hi cssProp                      guifg=#6D9CBE gui=bold
+hi cssVendor                    guifg=#6D9CBE gui=bold,italic
+hi cssIncludeKeyword            guifg=#d7b0fc gui=bold,italic
+hi cssImportant                 guifg=#47a3e5 gui=italic
 
 " JSON
 hi jsonBoolean                 guifg=#47a3e5 gui=italic
