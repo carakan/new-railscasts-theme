@@ -82,7 +82,7 @@ hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Define                    guifg=#CC7833 ctermfg=173
 " Interpolation
 hi Delimiter                 guifg=#519F50
-hi WarningMsg                guifg=#DA4939 guibg=NONE ctermfg=1 ctermbg=NONE
+hi WarningMsg                guifg=#DA4939 guibg=NONE gui=NONE
 " Error, rubyInvalidVariable
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 " Function
@@ -148,29 +148,32 @@ hi rubyBoolean               guifg=#47a3e5 gui=italic
 " JAVASCRIPT
 "
 hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=italic
-hi jsFunctionKey              guifg=#ff8700 ctermfg=221 gui=italic
-hi jsArrowFunction            guifg=#ff8700 ctermfg=221
-hi jsObjectKey                guifg=#6D9CBE ctermfg=73 gui=bold
-hi jsThis                     guifg=#d7b0fc ctermfg=189 gui=bold,italic
-hi jsStorageClass             guifg=#fc5858 ctermfg=167 gui=italic
-hi jsNull                     guifg=#ff8700 ctermfg=221 gui=italic
+hi jsFunctionKey              guifg=#ff8700 gui=italic
+hi jsArrowFunction            guifg=#ff8700
+hi jsObjectKey                guifg=#6D9CBE gui=bold
+hi jsThis                     guifg=#d7b0fc gui=bold,italic
+hi jsStorageClass             guifg=#fc5858 gui=italic
+hi jsNull                     guifg=#ff8700 gui=italic
 hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 
 " Typescript
 "
-hi typescriptArrowFunc        guifg=#ff8700 gui=italic
-hi typescriptVariable         guifg=#d7b0fc gui=italic
-hi typescriptAsyncFuncKeyword guifg=#47a3e5 gui=italic
-hi typescriptType             guifg=#ff8700 gui=italic
-hi typescriptObjectLabel      guifg=#6D9CBE gui=bold
-hi typescriptFuncName         guifg=#FFC66D gui=bold,italic guibg=NONE
-hi typescriptMethodName       guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptArrowFunc          guifg=#ff8700 gui=italic
+hi typescriptVariable           guifg=#d7b0fc gui=italic
+hi typescriptAsyncFuncKeyword   guifg=#47a3e5 gui=italic
+hi typescriptType               guifg=#ff8700 gui=italic
+hi typescriptPredefinedType     guifg=#ff8700 gui=italic
+hi typescriptObjectLabel        guifg=#6D9CBE gui=bold
+hi typescriptFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptMethodName         guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptIdentifier         guifg=#d7b0fc gui=bold,italic
+hi typescriptVariable           guifg=#fc5858 gui=italic
 
 " Python
 " ------
-hi pythonExceptions          guifg=#ffaf87 ctermfg=216
-hi pythonDoctest             guifg=#8787ff ctermfg=105
-hi pythonDoctestValue        guifg=#87d7af ctermfg=115
+hi pythonExceptions            guifg=#ffaf87 ctermfg=216
+hi pythonDoctest               guifg=#8787ff ctermfg=105
+hi pythonDoctestValue          guifg=#87d7af ctermfg=115
 
 " Elixir
 "
@@ -207,12 +210,12 @@ hi! link mailSubject mailHeaderKey
 
 " Spell
 " ----
-hi! SpellBad                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=underline
-hi! SpellRare                 guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
-hi! SpellCap                  guifg=#dfdfff guibg=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=underline
-hi! SpellLocal                guifg=#00FFFF guibg=NONE gui=NONE ctermfg=51 ctermbg=NONE cterm=underline
-hi! MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
-hi! Question                  guifg=#df5f87 guibg=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=underline
+hi! SpellBad                  guibg=#420101 gui=NONE guisp=red
+hi! SpellRare                 guibg=#420101 gui=NONE
+hi! SpellCap                  guibg=#420101 gui=NONE
+hi! SpellLocal                guibg=#420101 gui=NONE
+hi! MatchParen                guifg=#FFC66D guibg=#072f95 gui=bold
+hi! Question                  guibg=#420101 gui=NONE
 
 " XML
 " ---
