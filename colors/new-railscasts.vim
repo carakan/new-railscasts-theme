@@ -5,13 +5,11 @@
 " Modified:    Carlos Ramos, carakan
 " License:     public domain
 "
-" A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
-" Some parts of this theme were borrowed from the well-documented Lucius theme [2].
-"
 
-let g:colors_name = "new-railscasts"
+
+let g:colors_name = 'new-railscasts'
 hi clear
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
 highlight clear SignColumn
@@ -33,19 +31,15 @@ hi ColorColumn               guibg=#333435 ctermbg=235
 highlight SignColumn guibg=#2d2d2d
 
 " StatusLine
-" Bold
-hi User1                     guifg=#eeeeee guibg=#606060 gui=bold ctermfg=255 ctermbg=241 cterm=bold
-" Yellow
-hi User2                     guifg=#FFAF00 guibg=#606060 gui=bold ctermfg=214 ctermbg=241 cterm=bold
-" Green
-hi User3                     guifg=#15d300 guibg=#606060 gui=bold ctermfg=82 ctermbg=241 cterm=bold
-" Red
-hi User4                     guifg=#870000 guibg=#606060 gui=bold ctermfg=88 ctermbg=241 cterm=bold
-hi User5                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User6                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User7                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User8                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User1                     guifg=#eeeeee guibg=#606060 gui=bold
+hi User2                     guifg=#FFAF00 guibg=#606060 gui=bold
+hi User3                     guifg=#15d300 guibg=#606060 gui=bold
+hi User4                     guifg=#870000 guibg=#606060 gui=bold
+hi User5                     guifg=#e4e4e4 guibg=#606060 gui=bold
+hi User6                     guifg=#e4e4e4 guibg=#606060 gui=bold
+hi User7                     guifg=#e4e4e4 guibg=#606060 gui=bold
+hi User8                     guifg=#e4e4e4 guibg=#606060 gui=bold
+hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold
 
 " Folds
 " -----
@@ -133,16 +127,16 @@ hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 " Ruby
 " ----
 hi rubyTodo                  guifg=#fc5858 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
-hi rubyClass                 guifg=#dd7927 ctermfg=15
-hi rubyConstant              guifg=#fc5858 ctermfg=167
-hi rubyInterpolation         guifg=#ea8c3f ctermfg=15
-hi rubyBlockParameter        guifg=#d7b0fc ctermfg=189
-hi rubyPseudoVariable        guifg=#47a3e5 ctermfg=221 gui=italic,bold
-hi rubySymbol                guifg=#6D9CBE ctermfg=73 gui=bold
-hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
-hi rubyInstanceVariable      guifg=#d7b0fc ctermfg=189
-hi rubyPredefinedConstant    guifg=#fc5858 ctermfg=167
-hi rubyLocalVariableOrMethod guifg=#d7b0fc ctermfg=189
+hi rubyClass                 guifg=#dd7927
+hi rubyConstant              guifg=#fc5858
+hi rubyInterpolation         guifg=#ea8c3f
+hi rubyBlockParameter        guifg=#d7b0fc
+hi rubyPseudoVariable        guifg=#47a3e5 gui=italic,bold
+hi rubySymbol                guifg=#6D9CBE gui=bold
+hi rubyStringDelimiter       guifg=#87af5f
+hi rubyInstanceVariable      guifg=#d7b0fc
+hi rubyPredefinedConstant    guifg=#fc5858
+hi rubyLocalVariableOrMethod guifg=#d7b0fc
 hi rubyBoolean               guifg=#47a3e5 gui=italic
 
 " JAVASCRIPT
@@ -158,16 +152,17 @@ hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 
 " Typescript
 "
-hi typescriptArrowFunc          guifg=#ff8700 gui=italic
-hi typescriptVariable           guifg=#d7b0fc gui=italic
-hi typescriptAsyncFuncKeyword   guifg=#47a3e5 gui=italic
-hi typescriptType               guifg=#ff8700 gui=italic
-hi typescriptPredefinedType     guifg=#ff8700 gui=italic
-hi typescriptObjectLabel        guifg=#6D9CBE gui=bold
-hi typescriptFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
-hi typescriptMethodName         guifg=#FFC66D gui=bold,italic guibg=NONE
-hi typescriptIdentifier         guifg=#d7b0fc gui=bold,italic
-hi typescriptVariable           guifg=#fc5858 gui=italic
+hi typescriptArrowFunc              guifg=#ff8700 gui=italic
+hi typescriptVariable               guifg=#d7b0fc gui=italic
+hi typescriptAsyncFuncKeyword       guifg=#47a3e5 gui=italic
+hi typescriptType                   guifg=#ff8700 gui=italic
+hi typescriptPredefinedType         guifg=#ff8700 gui=italic
+hi typescriptObjectLabel            guifg=#6D9CBE gui=bold
+hi typescriptFuncName               guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptMethodName             guifg=#FFC66D gui=bold,italic guibg=NONE
+hi typescriptIdentifier             guifg=#d7b0fc gui=bold,italic
+hi typescriptVariable               guifg=#fc5858 gui=italic
+hi typescriptAccessibilityModifier  guifg=#ff8700 gui=italic
 
 " Python
 " ------
@@ -236,6 +231,6 @@ hi hbsKeyword               guifg=#dfaf5f gui=italic
 hi hbsMustacheName          guifg=#FFC66D gui=NONE
 hi hbsPencilName            guifg=#dfaf5f gui=bold
 
-hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
-hi checkboxDone guifg=#15d300 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
-hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD
+hi checkbox                 guifg=#3a3a3a guibg=NONE gui=NONE
+hi checkboxDone             guifg=#15d300 guibg=NONE gui=BOLD
+hi checkboxNotDone          guifg=#005fdf guibg=NONE gui=BOLD
