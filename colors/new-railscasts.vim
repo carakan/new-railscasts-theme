@@ -124,6 +124,10 @@ hi diffRemoved               guifg=#800000 ctermfg=1
 hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 
+hi SignifySignAdd            guifg=#008700 guibg=#2d2d2d gui=NONE
+hi SignifySignChange         guifg=#c643c6 guibg=#2d2d2d gui=NONE
+hi SignifySignDelete         guifg=#ff5d4f guibg=#2d2d2d gui=NONE
+
 " Ruby
 " ----
 hi rubyTodo                  guifg=#fc5858 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
