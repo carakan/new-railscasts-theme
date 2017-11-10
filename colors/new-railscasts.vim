@@ -148,11 +148,14 @@ hi rubyBoolean               guifg=#47a3e5 gui=italic
 hi jsFunction                 guifg=#ff8700 ctermfg=221 gui=italic
 hi jsFunctionKey              guifg=#ff8700 gui=italic
 hi jsArrowFunction            guifg=#ff8700
+hi jsNoise                    guifg=#ff8700 gui=bold
 hi jsObjectKey                guifg=#6D9CBE gui=bold
 hi jsThis                     guifg=#d7b0fc gui=bold,italic
 hi jsStorageClass             guifg=#fc5858 gui=italic
 hi jsNull                     guifg=#ff8700 gui=italic
 hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
+hi link jsGlobalObjects       Type
+hi link jsObjectProp          Type
 
 " Typescript
 "
