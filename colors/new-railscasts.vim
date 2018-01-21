@@ -84,29 +84,29 @@ hi Function                  guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm
 " Identifier: @var, @@var, $var, etc
 hi Identifier                guifg=#d7b0fc guibg=NONE ctermfg=73 cterm=NONE
 " Include: include, autoload, extend, load, require
-hi Include                   guifg=#CC7833  guibg=NONE ctermfg=173 cterm=NONE
+hi Include                   guifg=#FFA78D  guibg=NONE ctermfg=173 cterm=NONE
 " Keyword, rubyKeywordAsMethod: alias, undef, super, yield, callcc, caller, lambda, proc
-hi Keyword                   guifg=#d8690f ctermfg=172 cterm=NONE
+hi Keyword                   guifg=#CB725B ctermfg=172 cterm=NONE
 " same as define
-hi Macro                     guifg=#CC7833  guibg=NONE ctermfg=172
+hi Macro                     guifg=#FFA78D guibg=NONE ctermfg=172
 "rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
 hi Boolean                   guifg=#47a3e5 ctermfg=107 gui=italic
 " #if, #else, #endif
-hi PreCondit                 guifg=#CC7833  guibg=NONE ctermfg=172 cterm=NONE
+hi PreCondit                 guifg=#FFA78D guibg=NONE ctermfg=172 cterm=NONE
 " generic preprocessor
-hi PreProc                   guifg=#CC7833  guibg=NONE ctermfg=103
+hi PreProc                   guifg=#FFA78D guibg=NONE ctermfg=103
 " Control, Access, Eval: case, begin, do, for, if unless, while, until else, etc.
-hi Statement                 guifg=#CC7833 guibg=NONE ctermfg=172 cterm=NONE
+hi Statement                 guifg=#FFA78D guibg=NONE ctermfg=172 cterm=NONE
 " String
 hi String                    guifg=#74d155 guibg=NONE ctermfg=107
 hi! Title                    guifg=#FFFFFF guibg=NONE ctermfg=15
 " Constant
-hi Type                      guifg=#ff5d4f guibg=NONE gui=NONE
+hi Type                      guifg=#FFA78D guibg=NONE gui=NONE
 hi PreProc                   guifg=#ff8700 guibg=NONE ctermfg=208
 hi Special                   guifg=#ff8700 guibg=NONE ctermfg=22
-hi Operator                  guifg=#CC7833 guibg=NONE ctermfg=73
-hi Tag                       guifg=#CC7833 guibg=NONE ctermfg=73
+hi Operator                  guifg=#FFA78D guibg=NONE ctermfg=73
+hi Tag                       guifg=#FFA78D guibg=NONE ctermfg=73
 hi Label                     guifg=#6D9CBE ctermfg=221 gui=bold
 
 " Indentation
