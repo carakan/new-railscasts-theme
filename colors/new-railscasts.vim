@@ -130,16 +130,16 @@ hi SignifySignDelete         guifg=#ff5d4f guibg=#2d2d2d gui=NONE
 
 " Ruby
 " ----
-hi rubyTodo                  guifg=#fc5858 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
+hi rubyTodo                  guifg=#F07B5D guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
 hi rubyClass                 guifg=#dd7927
-hi rubyConstant              guifg=#fc5858
+hi rubyConstant              guifg=#F07B5D
 hi rubyInterpolation         guifg=#ea8c3f
 hi rubyBlockParameter        guifg=#d7b0fc
 hi rubyPseudoVariable        guifg=#47a3e5 gui=italic,bold
 hi rubySymbol                guifg=#6D9CBE gui=bold
 hi rubyStringDelimiter       guifg=#87af5f
 hi rubyInstanceVariable      guifg=#d7b0fc
-hi rubyPredefinedConstant    guifg=#fc5858
+hi rubyPredefinedConstant    guifg=#F07B5D
 hi rubyLocalVariableOrMethod guifg=#d7b0fc
 hi rubyBoolean               guifg=#47a3e5 gui=italic
 
@@ -151,7 +151,7 @@ hi jsArrowFunction            guifg=#ff8700
 hi jsNoise                    guifg=#ff8700 gui=bold
 hi jsObjectKey                guifg=#6D9CBE gui=bold
 hi jsThis                     guifg=#d7b0fc gui=bold,italic
-hi jsStorageClass             guifg=#fc5858 gui=italic
+hi jsStorageClass             guifg=#F07B5D gui=italic
 hi jsNull                     guifg=#ff8700 gui=italic
 hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 hi link jsGlobalObjects       Type
