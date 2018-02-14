@@ -41,7 +41,7 @@ set background=dark
 hi Normal                    guifg=#E6E1DC guibg=#212121 ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#282828 ctermbg=235 cterm=NONE
-hi Search                    guibg=#072f95 ctermfg=NONE ctermbg=236
+hi Search                    guifg=#FFC66D guibg=#072f95 gui=bold
 hi Visual                    guibg=#004568 ctermbg=60
 hi LineNr                    guifg=#707070 guibg=#2d2d2d  ctermfg=242
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
@@ -232,12 +232,12 @@ hi! link mailSubject mailHeaderKey
 
 " Spell
 " ----
-hi! SpellBad                  guibg=#420101 gui=NONE guisp=red
-hi! SpellRare                 guibg=#420101 gui=NONE
-hi! SpellCap                  guibg=#420101 gui=NONE
-hi! SpellLocal                guibg=#420101 gui=NONE
-hi! MatchParen                guifg=#FFC66D guibg=#072f95 gui=bold
-hi! Question                  guibg=#420101 gui=NONE
+hi SpellBad                  guibg=#420101 gui=NONE guisp=red
+hi SpellRare                 guibg=#420101 gui=NONE
+hi SpellCap                  guibg=#420101 gui=NONE
+hi SpellLocal                guibg=#420101 gui=NONE
+hi MatchParen                guifg=#FFC66D guibg=#072f95 gui=bold
+hi Question                  guibg=#420101 gui=NONE
 
 " XML
 " ---
