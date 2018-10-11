@@ -89,8 +89,8 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 " Comment
-hi Comment                   guifg=#bc7f23 guibg=NONE gui=italic ctermfg=137 cterm=italic
-hi Todo                      guifg=#df5f5f guibg=NONE gui=bold,italic ctermfg=94
+hi Comment                   guifg=#bc7f23 guibg=NONE gui=italic
+hi Todo                      guifg=#D38E39 guibg=NONE gui=bold,italic
 
 "rubyPseudoVariable: nil, self, symbols, etc
 hi Constant                  guifg=#0095CB ctermfg=73
