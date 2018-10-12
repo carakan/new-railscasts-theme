@@ -173,17 +173,19 @@ hi jsNull                     guifg=#FFA78D gui=italic
 hi jsObjectFuncName           guifg=#FFC66D gui=bold,italic guibg=NONE
 hi jsObjectKey                guifg=#6D9CBE gui=bold
 hi jsOperatorKeyword          guifg=#F9F871 gui=italic
-hi jsStorageClass             guifg=#F47454 gui=italic
+hi jsStorageClass             guifg=#FFAAE7 gui=italic
 hi jsThis                     guifg=#d7b0fc gui=bold,italic
 hi link jsGlobalObjects       Type
 hi link jsObjectProp          Type
 
 " Typescript https://github.com/HerringtonDarkholme/yats.vim
 
-hi typescriptAccessibilityModifier  guifg=#FFA78D gui=italic
+hi typescriptAccessibilityModifier  guifg=#FFAAE7 gui=italic
 hi typescriptArrowFunc              guifg=#FFA78D gui=italic
 hi typescriptAsyncFuncKeyword       guifg=#47a3e5 gui=italic
-hi typescriptEndColons              guifg=#CB725B gui=bold
+hi typescriptEndColons              guifg=#F47454 gui=bold
+hi typescriptObjectColon            guifg=#F47454 guibg=NONE gui=bold
+hi typescriptBraces                 guifg=#F47454 guibg=NONE gui=bold
 hi typescriptExport                 guifg=#F47454 guibg=NONE gui=NONE
 hi typescriptFuncName               guifg=#FFC66D gui=bold,italic guibg=NONE
 hi typescriptIdentifier             guifg=#d7b0fc gui=bold,italic
@@ -192,7 +194,8 @@ hi typescriptMethodName             guifg=#FFC66D gui=bold,italic guibg=NONE
 hi typescriptObjectLabel            guifg=#6D9CBE gui=bold
 hi typescriptPredefinedType         guifg=#F47454 gui=italic
 hi typescriptType                   guifg=#F47454 gui=italic
-hi typescriptVariable               guifg=#FFACC1 gui=italic
+hi typescriptReserved               guifg=#F47454 gui=italic
+hi typescriptVariable               guifg=#FFAAE7 gui=italic
 
 " Python
 
