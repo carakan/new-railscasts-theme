@@ -39,7 +39,8 @@ set background=dark
 
 hi Normal                    guifg=#E6E1DC guibg=#212121 ctermfg=white ctermbg=234
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
-hi CursorLine                guibg=#282828 ctermbg=235 cterm=NONE
+hi CursorLine                guibg=#2D2720
+hi ColorColumn               guibg=#2D2720
 hi Search                    guifg=#FFC66D guibg=#072f95 gui=bold
 hi Visual                    guibg=#004568 ctermbg=60
 hi LineNr                    guifg=#707070 guibg=#2d2d2d  ctermfg=242
@@ -49,7 +50,6 @@ hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ct
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guibg=#212121 gui=bold guifg=#444444 ctermfg=white ctermbg=234
 hi CursorLineNr              guifg=#d7b0fc guibg=#2d2d2d ctermfg=248
-hi ColorColumn               guibg=#333435 ctermbg=235
 highlight SignColumn guibg=#2d2d2d
 
 " StatusLine
