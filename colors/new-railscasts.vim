@@ -149,7 +149,7 @@ hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 hi diffRemoved               guifg=#800000 ctermfg=1
 
-" Ruby
+" Ruby https://github.com/vim-ruby/vim-ruby
 
 hi rubyBlockParameter        guifg=#d7b0fc
 hi rubyBoolean               guifg=#47a3e5 gui=italic
@@ -205,7 +205,7 @@ hi pythonDoctest               guifg=#8787ff ctermfg=105
 hi pythonDoctestValue          guifg=#87d7af ctermfg=115
 hi pythonExceptions            guifg=#ffaf87 ctermfg=216
 
-" Elixir
+" Elixir https://github.com/elixir-editors/vim-elixir
 
 hi elixirAtom                 guifg=#6D9CBE gui=bold
 hi elixirDefine               guifg=#D38E39 gui=bold
@@ -259,9 +259,10 @@ hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
 hi htmlArg                   guifg=#ff8700 gui=italic
 
-" HBS
+" HBS https://github.com/joukevandermaas/vim-ember-hbs
 
 hi hbsArg                   guifg=#F47454 gui=italic
+hi hbsBuiltInHelper         guifg=#FFA78D gui=bold,italic
 hi hbsHandles               guifg=#D38E39 gui=bold
 hi hbsKeyword               guifg=#0095CB gui=italic
 hi hbsMustacheName          guifg=#FFC66D gui=NONE
