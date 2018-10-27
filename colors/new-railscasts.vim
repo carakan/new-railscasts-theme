@@ -37,7 +37,7 @@ endif
 highlight clear SignColumn
 set background=dark
 
-hi Normal                    guifg=#EAE3D9 guibg=#212121
+hi Normal                    guifg=#FEF9E1 guibg=#202020
 hi Cursor                    guifg=#000000 guibg=#EAE3D9
 hi CursorLine                guibg=#2D2720
 hi ColorColumn               guibg=#2D2720
