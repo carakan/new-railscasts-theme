@@ -124,6 +124,9 @@ hi diffRemoved       guifg=#800000 ctermfg=1
 hi rubyBlockParameter        guifg=#D7B0FC
 hi rubyClass                 guifg=#F47454 gui=bold
 hi rubyConstant              guifg=#F47454
+hi rubyDefine                guifg=#F47454 gui=bold
+hi rspecMatchers             guifg=#FFC66D gui=bold
+hi rubyGemfileMethod         guifg=#F47454 gui=bold
 hi rubyInstanceVariable      guifg=#D7B0FC
 hi rubyInterpolation         guifg=#D7B0FC
 hi rubyLocalVariableOrMethod guifg=#D7B0FC
