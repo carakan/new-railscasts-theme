@@ -172,18 +172,20 @@ hi pythonDoctestValue guifg=#87d7af ctermfg=115
 hi pythonExceptions   guifg=#ffaf87 ctermfg=216
 
 " Elixir https://github.com/elixir-editors/vim-elixir
-hi elixirAtom           guifg=#6D9CBE gui=bold
-hi elixirDefine         guifg=#D38E39 gui=bold
-hi elixirMap            guifg=#FFA78D gui=bold
-hi elixirMapDelimiter   guifg=#D38E39 gui=bold
-hi elixirModuleDefine   guifg=#D38E39 gui=bold
-hi elixirOperator       guifg=#FFC66D
-hi elixirPrivateDefine  guifg=#D38E39 gui=bold,italic
-hi elixirTuple          guifg=#FFA78D gui=bold
-hi elixirTupleDelimiter guifg=#D38E39 gui=bold
-hi elixirExUnitAssert   guifg=#FFC66D gui=bold,italic
-hi elixirExUnitMacro    guifg=#F47454 gui=bold
-hi elixirDocString      guifg=#f7c588 gui=NONE
+hi elixirAtom             guifg=#6D9CBE gui=bold
+hi elixirDefine           guifg=#F47454 gui=bold
+hi elixirMap              guifg=#FFA78D gui=bold
+hi elixirMapDelimiter     guifg=#D38E39 gui=bold
+hi elixirModuleDefine     guifg=#F47454 gui=bold
+hi elixirOperator         guifg=#FFC66D
+hi elixirPrivateDefine    guifg=#F47454 gui=bold,italic
+hi elixirTuple            guifg=#FFA78D gui=bold
+hi elixirTupleDelimiter   guifg=#D38E39 gui=bold
+hi elixirExUnitAssert     guifg=#FFC66D gui=bold,italic
+hi elixirExUnitMacro      guifg=#F47454 gui=bold
+hi elixirDocString        guifg=#f7c588 gui=NONE
+hi elixirBlockDefinition  guifg=#F47454 gui=bold
+hi elixirInclude          guifg=#F47454 gui=bold,italic
 
 " CSS
 hi cssAttr            guifg=#FFC66D
