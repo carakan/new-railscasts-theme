@@ -189,6 +189,9 @@ hi elixirOperator         guifg=#FFC66D
 hi elixirPrivateDefine    guifg=#F47454 gui=bold,italic
 hi elixirTuple            guifg=#D38E39 gui=bold
 hi elixirTupleDelimiter   guifg=#D38E39 gui=bold
+hi elixirKeyword          guifg=#F47454 gui=bold
+hi elixirOperator         guifg=#F47454 gui=bold,italic
+
 
 " CSS
 hi cssAttr            guifg=#FFC66D
