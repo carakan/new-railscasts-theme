@@ -236,3 +236,6 @@ hi hbsPencilName    guifg=#D38E39 gui=bold
 hi checkbox         guifg=#3A3A3A guibg=NONE gui=NONE
 hi checkboxDone     guifg=#15D300 guibg=NONE gui=BOLD
 hi checkboxNotDone  guifg=#005FDF guibg=NONE gui=BOLD
+hi BookmarkSign     guibg=#2D2D2D guifg=#FFC66D gui=NONE
+hi ALEErrorSign     guibg=#2D2D2D guifg=#D80A0A gui=NONE
+hi ALEWarningSign   guibg=#2D2D2D guifg=#FFC66D gui=NONE
