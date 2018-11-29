@@ -140,6 +140,7 @@ hi jsNull               guifg=#FFA78D gui=italic
 hi jsObjectBraces       guifg=#D38E39 gui=bold
 hi jsObjectFuncName     guifg=#FFC66D gui=bold,italic guibg=NONE
 hi jsObjectKey          guifg=#6D9CBE gui=bold
+hi jsObjectSeparator    guifg=#F47454 gui=bold
 hi jsOperatorKeyword    guifg=#F9F871 gui=italic
 hi jsParens             guifg=#D38E39 gui=bold
 hi jsStorageClass       guifg=#FFAAE7 gui=italic
@@ -168,9 +169,9 @@ hi typescriptType                  guifg=#F47454 gui=italic
 hi typescriptVariable              guifg=#FFAAE7 gui=italic
 
 " Python
-hi pythonDoctest      guifg=#8787ff ctermfg=105
-hi pythonDoctestValue guifg=#87d7af ctermfg=115
-hi pythonExceptions   guifg=#ffaf87 ctermfg=216
+hi pythonDoctest      guifg=#00869A
+hi pythonDoctestValue guifg=#D7B0FC
+hi pythonExceptions   guifg=#FFBD96
 
 " Elixir https://github.com/elixir-editors/vim-elixir
 hi elixirAtom             guifg=#6D9CBE gui=bold
