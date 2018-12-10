@@ -35,7 +35,7 @@ and set your Colorscheme:
 colorscheme new-railscasts
 ```
 
-### GUI (neovim) :
+### GUI (neovim):
 
 <img src="https://raw.github.com/carakan/new-railscasts-theme/master/screenshot_gui.png" />
 
