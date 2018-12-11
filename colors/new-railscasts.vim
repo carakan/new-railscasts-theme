@@ -128,25 +128,30 @@ hi rubyStringDelimiter       guifg=#87AF5F
 hi rubySymbol                guifg=#6D9CBE gui=bold
 
 " Javascript https://github.com/pangloss/vim-javascript
-hi jsArrowFunction      guifg=#FFA78D
-hi jsBrackets           guifg=#D38E39 gui=bold
-hi jsFuncBraces         guifg=#D38E39 gui=bold
-hi jsFunction           guifg=#FFA78D ctermfg=221 gui=italic
-hi jsFunctionKey        guifg=#FFA78D gui=italic
-hi jsIfElseBraces       guifg=#D38E39 gui=bold
-hi jsModuleBraces       guifg=#D38E39 gui=bold
-hi jsNoise              guifg=#CB725B gui=bold
-hi jsNull               guifg=#FFA78D gui=italic
-hi jsObjectBraces       guifg=#D38E39 gui=bold
-hi jsObjectFuncName     guifg=#FFC66D gui=bold,italic guibg=NONE
-hi jsObjectKey          guifg=#6D9CBE gui=bold
-hi jsObjectSeparator    guifg=#F47454 gui=bold
-hi jsOperatorKeyword    guifg=#F9F871 gui=italic
-hi jsParens             guifg=#D38E39 gui=bold
-hi jsStorageClass       guifg=#FFAAE7 gui=italic
-hi jsThis               guifg=#d7b0fc gui=bold,italic
-hi link jsGlobalObjects Type
-hi link jsObjectProp    Type
+hi jsArrowFunction       guifg=#FFA78D gui=bold
+hi jsBrackets            guifg=#D38E39 gui=bold
+hi jsDestructuringBraces guifg=#D38E39 gui=bold
+hi jsExceptions          guifg=#F47454 gui=bold,italic
+hi jsFuncBraces          guifg=#D38E39 gui=bold
+hi jsFuncParens          guifg=#D38E39 gui=bold
+hi jsFunction            guifg=#FFAAE7 gui=italic
+hi jsFunctionKey         guifg=#FFA78D gui=italic
+hi jsGlobalNodeObjects   guifg=#F47454 gui=bold,italic
+hi jsIfElseBraces        guifg=#D38E39 gui=bold
+hi jsModuleBraces        guifg=#D38E39 gui=bold
+hi jsNoise               guifg=#CB725B gui=bold
+hi jsNull                guifg=#FFA78D gui=italic
+hi jsObjectBraces        guifg=#D38E39 gui=bold
+hi jsObjectFuncName      guifg=#FFC66D gui=bold,italic guibg=NONE
+hi jsObjectKey           guifg=#6D9CBE gui=bold
+hi jsObjectSeparator     guifg=#F47454 gui=bold
+hi jsOperatorKeyword     guifg=#FFAAE7 gui=italic
+hi jsParens              guifg=#D38E39 gui=bold
+hi jsStorageClass        guifg=#FFAAE7 gui=italic
+hi jsTemplateBraces      guifg=#D38E39 gui=bold
+hi jsThis                guifg=#d7b0fc gui=bold,italic
+hi link jsGlobalObjects  Type
+hi link jsObjectProp     Type
 
 " Typescript https://github.com/HerringtonDarkholme/yats.vim
 hi typescriptAccessibilityModifier guifg=#FFAAE7 gui=italic
