@@ -77,8 +77,8 @@ hi Keyword     guifg=#FFA78D ctermfg=172 cterm=NONE
 hi Label       guifg=#6D9CBE gui=bold
 hi Macro       guifg=#F47454 guibg=NONE ctermfg=172
 hi NonText     guifg=#777777 gui=NONE
-hi Number      guifg=#bde04c ctermfg=107
-hi Operator    guifg=#FFC66D guibg=NONE ctermfg=73
+hi Number      guifg=#bde04c guibg=NONE
+hi Operator    guifg=#FFC66D guibg=NONE
 hi Pmenu       guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi PmenuSbar   guibg=#5A647E gui=NONE
 hi PmenuSel    guifg=#000000 guibg=#A5C261 gui=NONE
@@ -265,3 +265,8 @@ hi BookmarkSign        guibg=#202020 guifg=#FFC66D gui=NONE
 hi checkbox            guifg=#3A3A3A guibg=NONE gui=NONE
 hi checkboxDone        guifg=#15D300 guibg=NONE gui=BOLD
 hi checkboxNotDone     guifg=#005FDF guibg=NONE gui=BOLD
+
+" Specific to PMV.vim
+hi PMVname        guifg=#F47454 guibg=NONE gui=bold,italic
+hi PMVstring      guifg=#74D155 guibg=NONE gui=bold
+hi PMVvalueNumber guifg=#bde04c guibg=NONE gui=italic
