@@ -267,6 +267,6 @@ hi checkboxDone        guifg=#15D300 guibg=NONE gui=BOLD
 hi checkboxNotDone     guifg=#005FDF guibg=NONE gui=BOLD
 
 " Specific to PMV.vim
-hi PMVname        guifg=#F47454 guibg=NONE gui=bold,italic
+hi PMVname        guifg=#79AFD7 guibg=NONE gui=bold,italic
 hi PMVstring      guifg=#74D155 guibg=NONE gui=bold
-hi PMVvalueNumber guifg=#bde04c guibg=NONE gui=italic
+hi PMVvalueNumber guifg=#FFC66D guibg=NONE gui=italic
