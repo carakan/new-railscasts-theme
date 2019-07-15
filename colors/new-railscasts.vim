@@ -76,7 +76,7 @@ hi Include     guifg=#F47454 guibg=NONE ctermfg=173 cterm=NONE
 hi Keyword     guifg=#FFA78D ctermfg=172 cterm=NONE
 hi Label       guifg=#6D9CBE gui=bold
 hi Macro       guifg=#F47454 guibg=NONE ctermfg=172
-hi NonText     guifg=#777777 gui=NONE
+hi NonText     guifg=#777777 gui=bold,italic
 hi Number      guifg=#bde04c guibg=NONE
 hi Operator    guifg=#FFC66D guibg=NONE
 hi Pmenu       guifg=#F6F3E8 guibg=#444444 gui=NONE
