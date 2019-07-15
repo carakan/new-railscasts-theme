@@ -128,6 +128,10 @@ hi rubyPredefinedConstant    guifg=#F47454
 hi rubyPseudoVariable        guifg=#DD75C9 gui=italic,bold
 hi rubyStringDelimiter       guifg=#87AF5F
 hi rubySymbol                guifg=#6D9CBE gui=bold
+hi rubyCurlyBlockDelimiter   guifg=#D38E39 gui=bold
+hi link rubyArrayDelimiter rubyCurlyBlockDelimiter
+hi link rubyBracketOperator rubyCurlyBlockDelimiter
+hi link rubyLambdaOperator rubyCurlyBlockDelimiter
 
 " Javascript https://github.com/pangloss/vim-javascript
 hi jsArrowFunction       guifg=#FFA78D gui=bold
@@ -150,7 +154,7 @@ hi jsObjectSeparator     guifg=#F47454 gui=bold
 hi jsOperatorKeyword     guifg=#FFAAE7 gui=italic
 hi jsParens              guifg=#D38E39 gui=bold
 hi jsStorageClass        guifg=#FFAAE7 gui=italic
-hi jsTemplateBraces      guifg=#D38E39 gui=bold
+hi jsTemplateBraces      guifg=#519F50 gui=bold
 hi jsThis                guifg=#d7b0fc gui=bold,italic
 hi link jsGlobalObjects  Type
 hi link jsObjectProp     Type
