@@ -101,17 +101,17 @@ hi IndentGuidesOdd  ctermbg=239 guibg=#282828
 hi IndentGuidesEven ctermbg=237 guibg=#332717
 
 " Diffs
-hi DiffAdd           guifg=#E4E4E4 guibg=#519F50 ctermfg=254 ctermbg=22
-hi DiffChange        guifg=#EAE3D9 guibg=#870087 ctermfg=15 ctermbg=90
-hi DiffDelete        guifg=#E4E4E4 guibg=#660000 gui=bold ctermfg=16 ctermbg=52 cterm=bold
-hi DiffText          guifg=#FFC66D guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold
+hi DiffAdd           guifg=#E4E4E4 guibg=#519F50
+hi DiffChange        guifg=#EAE3D9 guibg=#870087
+hi DiffDelete        guifg=#E4E4E4 guibg=#660000 gui=bold
+hi DiffText          guifg=#FFC66D guibg=#FF0000 gui=bold
 hi SignifySignAdd    guifg=#008700 guibg=#2d2d2d gui=NONE
 hi SignifySignChange guifg=#C643C6 guibg=#2d2d2d gui=NONE
 hi SignifySignDelete guifg=#FF5D4F guibg=#2d2d2d gui=NONE
-hi diffAdded         guifg=#008700 ctermfg=28
-hi diffFile          guifg=#EAE3D9 guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
-hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
-hi diffRemoved       guifg=#800000 ctermfg=1
+hi diffAdded         guifg=#519F50 gui=bold
+hi diffFile          guifg=#EAE3D9 guibg=NONE gui=bold
+hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
+hi diffRemoved       guifg=#F47454 gui=italic
 
 " Ruby https://github.com/vim-ruby/vim-ruby
 hi rspecMatchers             guifg=#FFC66D gui=bold
