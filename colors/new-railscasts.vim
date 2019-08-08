@@ -44,11 +44,11 @@ hi CursorLine   guibg=#2D2720
 hi ColorColumn  guibg=#2D2720
 hi Search       guifg=#FFC66D guibg=#072f95 gui=bold
 hi Visual       guibg=#004568 ctermbg=60
-hi LineNr       guifg=#707070 guibg=#2d2d2d ctermfg=242
+hi LineNr       guifg=#707070 guibg=#2d2d2d
 hi StatusLine   guifg=#E4E4E4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
 hi VertSplit    guibg=#212121 gui=bold guifg=#444444 ctermfg=white ctermbg=234
-hi CursorLineNr guifg=#D7B0FC guibg=#2d2d2d ctermfg=248
+hi CursorLineNr guifg=#D7B0FC guibg=#2d2d2d gui=bold
 hi SignColumn   guibg=#2D2D2D
 hi User1        guifg=#EEEEEE guibg=#606060 gui=bold
 hi User2        guifg=#FFAF00 guibg=#606060 gui=bold
@@ -260,11 +260,17 @@ hi hbsPencilName    guifg=#D38E39 gui=bold
 hi link erubyDelimiter hbsHandles
 hi link eelixirDelimiter hbsHandles
 
-hi ALEErrorSign        guibg=#202020 guifg=#F47454 gui=NONE
-hi ALEInfoSign         guibg=#202020 guifg=#0095CB gui=NONE
-hi ALEStyleErrorSign   guibg=#202020 guifg=#F47454 gui=NONE
-hi ALEStyleWarningSign guibg=#202020 guifg=#FFC66D gui=NONE
-hi ALEWarningSign      guibg=#202020 guifg=#FFC66D gui=NONE
+hi ALEErrorSign        guibg=#2d2d2d guifg=#F47454 gui=NONE
+hi ALEInfoSign         guibg=#2d2d2d guifg=#0095CB gui=NONE
+hi ALEStyleErrorSign   guibg=#2d2d2d guifg=#F47454 gui=NONE
+hi ALEStyleWarningSign guibg=#2d2d2d guifg=#FFC66D gui=NONE
+hi ALEWarningSign      guibg=#2d2d2d guifg=#FFC66D gui=NONE
+hi ALEWarningSignLineNr  gui=NONE
+hi ALEErrorSignLineNr  gui=NONE
+hi ALEInfoSignLineNr  gui=NONE
+hi ALEStyleWarningSignLineNr  gui=NONE
+hi ALEStyleErrorSignLineNr  gui=NONE
+
 hi BookmarkSign        guibg=#202020 guifg=#FFC66D gui=NONE
 hi checkbox            guifg=#3A3A3A guibg=NONE gui=NONE
 hi checkboxDone        guifg=#15D300 guibg=NONE gui=BOLD
