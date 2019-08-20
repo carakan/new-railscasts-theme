@@ -158,6 +158,10 @@ hi jsTemplateBraces      guifg=#519F50 gui=bold
 hi jsThis                guifg=#d7b0fc gui=bold,italic
 hi link jsGlobalObjects  Type
 hi link jsObjectProp     Type
+hi link javaScriptNumber Number
+hi link javaScriptFunction jsFunction
+hi link javaScriptBraces jsBrackets
+hi link javaScriptParens jsBrackets
 
 " Typescript https://github.com/HerringtonDarkholme/yats.vim
 hi typescriptAccessibilityModifier guifg=#FFAAE7 gui=italic
