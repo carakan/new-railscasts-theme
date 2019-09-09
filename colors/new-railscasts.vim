@@ -114,25 +114,26 @@ hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
 hi diffRemoved       guifg=#F47454 gui=italic
 
 " Ruby https://github.com/vim-ruby/vim-ruby
-hi rspecMatchers             guifg=#FFC66D gui=bold
+hi rspecMatchers             guifg=#FFC66D
 hi rubyBlockParameter        guifg=#D7B0FC
 hi rubyClass                 guifg=#F47454 gui=bold
-hi rubyConstant              guifg=#FC623B
-hi rubyDefine                guifg=#F47454 gui=bold
-hi rubyGemfileMethod         guifg=#F47454 gui=bold
-hi rubyInstanceVariable      guifg=#D7B0FC
-hi rubyInterpolation         guifg=#D7B0FC
-hi rubyLocalVariableOrMethod guifg=#D7B0FC
+hi rubyConstant              guifg=#FC623B gui=bold
 hi rubyMethodName            guifg=#FFC66D gui=bold
+hi rubyKeywordAsMethod       guifg=#FFC66D
 hi rubyPredefinedConstant    guifg=#F47454
 hi rubyPseudoVariable        guifg=#DD75C9 gui=italic,bold
 hi rubyStringDelimiter       guifg=#87AF5F
 hi rubySymbol                guifg=#6D9CBE gui=bold
 hi rubyCurlyBlockDelimiter   guifg=#D38E39 gui=bold
-hi link rubyArrayDelimiter rubyCurlyBlockDelimiter
-hi link rubyBracketOperator rubyCurlyBlockDelimiter
-hi link rubyLambdaOperator rubyCurlyBlockDelimiter
-
+hi link rubyArrayDelimiter   rubyCurlyBlockDelimiter
+hi link rubyBracketOperator  rubyCurlyBlockDelimiter
+hi link rubyLambdaOperator   rubyCurlyBlockDelimiter
+hi link rubyBlockParameterList rubyBlockParameter
+hi link rubyInstanceVariable rubyBlockParameter
+hi link rubyInterpolation    rubyBlockParameter
+hi link rubyLocalVariableOrMethod rubyBlockParameter
+hi link rubyDefine           rubyClass
+hi link rubyGemfileMethod    rubyClass
 " Javascript https://github.com/pangloss/vim-javascript
 hi jsArrowFunction       guifg=#FFA78D gui=bold
 hi jsBrackets            guifg=#D38E39 gui=bold
