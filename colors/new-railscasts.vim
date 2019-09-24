@@ -220,9 +220,11 @@ hi cssIdentifier     guifg=#47A3E5 gui=italic
 hi cssImportant      guifg=#47A3E5 gui=italic
 hi cssIncludeKeyword guifg=#D7B0FC gui=bold,italic
 hi cssNoise          guifg=#D38E39 gui=bold
+hi scssSemicolon     guifg=#D38E39 gui=bold
 hi cssProp           guifg=#6D9CBE gui=bold
 hi cssVendor         guifg=#6D9CBE gui=bold,italic
 hi scssSelectorName  guifg=#FFAAE7 gui=italic
+hi cssAttributeSelector guifg=#FFC66D gui=italic
 
 " JSON
 hi jsonBoolean       guifg=#47A3E5 gui=italic
