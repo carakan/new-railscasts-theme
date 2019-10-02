@@ -43,7 +43,7 @@ hi Cursor       guifg=#000000 guibg=#EAE3D9
 hi CursorLine   guibg=#2D2720
 hi ColorColumn  guibg=#2D2720
 hi Search       guifg=#FFC66D guibg=#072f95 gui=bold
-hi Visual       guibg=#004568 ctermbg=60
+hi Visual       guibg=#003f72 gui=NONE
 hi LineNr       guifg=#707070 guibg=#2d2d2d
 hi StatusLine   guifg=#E4E4E4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
@@ -122,6 +122,7 @@ hi rubyMethodName            guifg=#FFC66D gui=bold
 hi rubyPredefinedConstant    guifg=#F47454
 hi rubyPseudoVariable        guifg=#DD75C9 gui=italic,bold
 hi rubyStringDelimiter       guifg=#87AF5F
+hi rubyHeredocDelimiter      guifg=#519F50 gui=italic,bold
 hi rubySymbol                guifg=#6D9CBE gui=bold
 hi rubyCurlyBlockDelimiter   guifg=#D38E39 gui=bold
 hi link rubyArrayDelimiter   rubyCurlyBlockDelimiter
@@ -129,6 +130,7 @@ hi link rubyBracketOperator  rubyCurlyBlockDelimiter
 hi link rubyLambdaOperator   rubyCurlyBlockDelimiter
 hi link rubyPercentSymbolDelimiter rubyCurlyBlockDelimiter
 hi link rubyPercentStringDelimiter rubyCurlyBlockDelimiter
+hi link rubyPercentRegexpDelimiter rubyCurlyBlockDelimiter
 hi link rubySuperClassOperator rubyMethodName
 hi link rubyDotOperator      rspecMatchers
 hi link rubyKeywordAsMethod      rspecMatchers
