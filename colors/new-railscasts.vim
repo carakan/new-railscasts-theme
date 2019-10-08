@@ -68,7 +68,7 @@ hi Constant    guifg=#0095CB guibg=NONE gui=NONE
 hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
-hi Error       guifg=#EAE3D9 guibg=#990000 ctermfg=221 ctermbg=88
+hi Error       guifg=NONE guibg=#662121 gui=NONE
 hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
@@ -212,7 +212,7 @@ hi elixirMapDelimiter      guifg=#D38E39 gui=bold
 hi elixirModuleDefine      guifg=#F47454 gui=bold
 hi elixirOperator          guifg=#FFC66D gui=bold
 hi elixirPrivateDefine     guifg=#F47454 gui=bold,italic
-hi elixirPseudoVariable    guifg=#00A1EC gui=bold
+hi elixirPseudoVariable    guifg=#e2ae5f gui=bold
 hi elixirStructDelimiter   guifg=#D38E39 gui=bold
 hi elixirTuple             guifg=#D38E39 gui=bold
 hi elixirTupleDelimiter    guifg=#D38E39 gui=bold
