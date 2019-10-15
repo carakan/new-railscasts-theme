@@ -128,18 +128,19 @@ hi rubyCurlyBlockDelimiter   guifg=#D38E39 gui=bold
 hi link rubyArrayDelimiter   rubyCurlyBlockDelimiter
 hi link rubyBracketOperator  rubyCurlyBlockDelimiter
 hi link rubyLambdaOperator   rubyCurlyBlockDelimiter
-hi link rubyPercentSymbolDelimiter rubyCurlyBlockDelimiter
-hi link rubyPercentStringDelimiter rubyCurlyBlockDelimiter
-hi link rubyPercentRegexpDelimiter rubyCurlyBlockDelimiter
-hi link rubySuperClassOperator rubyMethodName
-hi link rubyDotOperator      rspecMatchers
-hi link rubyKeywordAsMethod      rspecMatchers
-hi link rubyBlockParameterList rubyBlockParameter
-hi link rubyInstanceVariable rubyBlockParameter
-hi link rubyInterpolation    rubyBlockParameter
-hi link rubyLocalVariableOrMethod rubyBlockParameter
-hi link rubyDefine           rubyClass
-hi link rubyGemfileMethod    rubyClass
+hi link rubyPercentSymbolDelimiter  rubyCurlyBlockDelimiter
+hi link rubyPercentStringDelimiter  rubyCurlyBlockDelimiter
+hi link rubyPercentRegexpDelimiter  rubyCurlyBlockDelimiter
+hi link rubySuperClassOperator      rubyMethodName
+hi link rubyProcOperator            rubyMethodName
+hi link rubyDotOperator             rspecMatchers
+" hi link rubyKeywordAsMethod       rspecMatchers
+hi link rubyBlockParameterList      rubyBlockParameter
+hi link rubyInstanceVariable        rubyBlockParameter
+hi link rubyInterpolation           rubyBlockParameter
+hi link rubyLocalVariableOrMethod   rubyBlockParameter
+hi link rubyDefine                  rubyClass
+hi link rubyGemfileMethod           rubyClass
 " Javascript https://github.com/pangloss/vim-javascript
 hi jsArrowFunction       guifg=#FFA78D gui=bold
 hi jsBrackets            guifg=#D38E39 gui=bold
