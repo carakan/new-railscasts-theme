@@ -87,7 +87,7 @@ hi PreCondit   guifg=#F47454 guibg=NONE
 hi PreProc     guifg=#F47454 guibg=NONE
 hi PreProc     guifg=#FFA78D guibg=NONE
 hi Special     guifg=#FFA78D guibg=NONE
-hi SpecialKey  guifg=#777777 gui=NONE
+hi SpecialKey  guifg=#777777 guibg=NONE gui=NONE
 hi Statement   guifg=#F47454 guibg=NONE
 hi String      guifg=#74D155 guibg=NONE
 hi Tag         guifg=#F47454 guibg=NONE
@@ -114,17 +114,18 @@ hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
 hi diffRemoved       guifg=#F47454 gui=italic
 
 " Ruby https://github.com/vim-ruby/vim-ruby
-hi rspecMatchers             guifg=#FFC66D
-hi rubyBlockParameter        guifg=#D7B0FC
-hi rubyClass                 guifg=#F47454 gui=bold
-hi rubyConstant              guifg=#FC623B gui=bold
-hi rubyMethodName            guifg=#FFC66D gui=bold
-hi rubyPredefinedConstant    guifg=#F47454
-hi rubyPseudoVariable        guifg=#DD75C9 gui=italic,bold
-hi rubyStringDelimiter       guifg=#87AF5F
-hi rubyHeredocDelimiter      guifg=#519F50 gui=italic,bold
-hi rubySymbol                guifg=#6D9CBE gui=bold
-hi rubyCurlyBlockDelimiter   guifg=#D38E39 gui=bold
+hi rspecMatchers             guifg=#FFC66D guibg=NONE
+hi rubyBlockParameter        guifg=#D7B0FC guibg=NONE
+hi rubyClass                 guifg=#F47454 guibg=NONE gui=bold
+hi rubyConstant              guifg=#FC623B guibg=NONE gui=bold
+hi rubyMethodName            guifg=#FFC66D guibg=NONE gui=bold
+hi rubyPredefinedConstant    guifg=#F47454 guibg=NONE
+hi rubyPseudoVariable        guifg=#DD75C9 guibg=NONE gui=italic,bold
+hi rubyStringDelimiter       guifg=#87AF5F guibg=NONE
+hi rubyHeredocDelimiter      guifg=#519F50 guibg=NONE gui=italic,bold
+hi rubySymbol                guifg=#6D9CBE guibg=NONE gui=bold
+hi rubyCurlyBlockDelimiter   guifg=#D38E39 guibg=NONE gui=bold
+hi rubyInterpolation         guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
 hi link rubyArrayDelimiter   rubyCurlyBlockDelimiter
 hi link rubyBracketOperator  rubyCurlyBlockDelimiter
 hi link rubyLambdaOperator   rubyCurlyBlockDelimiter
@@ -134,10 +135,8 @@ hi link rubyPercentRegexpDelimiter  rubyCurlyBlockDelimiter
 hi link rubySuperClassOperator      rubyMethodName
 hi link rubyProcOperator            rubyMethodName
 hi link rubyDotOperator             rspecMatchers
-" hi link rubyKeywordAsMethod       rspecMatchers
 hi link rubyBlockParameterList      rubyBlockParameter
 hi link rubyInstanceVariable        rubyBlockParameter
-hi link rubyInterpolation           rubyBlockParameter
 hi link rubyLocalVariableOrMethod   rubyBlockParameter
 hi link rubyDefine                  rubyClass
 hi link rubyGemfileMethod           rubyClass
