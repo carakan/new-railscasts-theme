@@ -68,7 +68,7 @@ hi Constant    guifg=#0095CB guibg=NONE gui=NONE
 hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
-hi Error       guifg=NONE guibg=NONE gui=undercurl
+hi Error       gui=undercurl guisp=#F47454
 hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
@@ -277,7 +277,7 @@ hi xmlEndTag        guifg=#FFC66D
 hi xmlTag           guifg=#FFC66D
 hi xmlTagName       guifg=#FFC66D
 hi mkdHeading       guifg=#D38E39 gui=bold
-hi mkdLink          gui=bold
+hi mkdLink          guifg=#47A3E5 gui=bold,underline
 
 " HBS https://github.com/joukevandermaas/vim-ember-hbs
 hi hbsArg           guifg=#F47454 gui=italic
