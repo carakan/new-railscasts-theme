@@ -211,27 +211,29 @@ hi vimHiAttrib        guifg=#FFF7D0 guibg=NONE
 hi vimHiGroup         guifg=#FFC66D guibg=NONE
 
 " Elixir https://github.com/elixir-editors/vim-elixir
-hi elixirModuleDeclaration guifg=#FC623B gui=italic
 hi elixirAtom              guifg=#6D9CBE gui=bold
 hi elixirBlockDefinition   guifg=#F47454 gui=bold
 hi elixirDefine            guifg=#F47454 gui=bold
-hi elixirDocString         guifg=#FFF7D0 guibg=#383838 gui=bold,italic
+hi elixirDocString         guifg=#FFF7D0 gui=bold,italic
 hi elixirExUnitAssert      guifg=#D38E39 gui=bold
 hi elixirExUnitMacro       guifg=#F47454 gui=bold
+hi elixirFunctionCall      guifg=#fcf3c9
 hi elixirInclude           guifg=#F47454 gui=bold,italic
 hi elixirKeyword           guifg=#F47454 gui=bold
+hi elixirListDelimiter     guifg=#D38E39 gui=bold
 hi elixirMap               guifg=#D38E39 gui=bold
 hi elixirMapDelimiter      guifg=#D38E39 gui=bold
+hi elixirModuleDeclaration guifg=#FC623B gui=bold,italic
 hi elixirModuleDefine      guifg=#F47454 gui=bold
 hi elixirOperator          guifg=#FFC66D gui=bold
 hi elixirPrivateDefine     guifg=#F47454 gui=bold,italic
 hi elixirPrivateFunctionDeclaration guifg=#FFC66D gui=bold,italic
 hi elixirPseudoVariable    guifg=#e2ae5f gui=bold
+hi elixirStringDelimiter   guifg=#74D155 gui=bold
+hi elixirSigilDelimiter    guifg=#74D155 gui=bold,italic
 hi elixirStructDelimiter   guifg=#D38E39 gui=bold
 hi elixirTuple             guifg=#D38E39 gui=bold
 hi elixirTupleDelimiter    guifg=#D38E39 gui=bold
-hi elixirStringDelimiter   guifg=#74D155 gui=bold
-hi elixirFunctionCall      guifg=#fcf3c9
 
 " CSS
 hi cssAttr           guifg=#FFC66D
