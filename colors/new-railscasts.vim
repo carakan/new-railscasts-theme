@@ -53,7 +53,7 @@ hi SignColumn   guibg=#2D2D2D
 hi User1        guifg=#EEEEEE guibg=#606060 gui=bold
 hi User2        guifg=#FFAF00 guibg=#606060 gui=bold
 hi User3        guifg=#15D300 guibg=#606060 gui=bold
-hi User4        guifg=#870000 guibg=#606060 gui=bold
+hi User4        guifg=#FC623B guibg=#606060 gui=bold
 hi User5        guifg=#E4E4E4 guibg=#606060 gui=bold
 hi User6        guifg=#E4E4E4 guibg=#606060 gui=bold
 hi User7        guifg=#E4E4E4 guibg=#606060 gui=bold
@@ -68,7 +68,7 @@ hi Constant    guifg=#0095CB guibg=NONE gui=NONE
 hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
-hi Error       gui=undercurl guisp=#F47454
+hi Error       guibg=NONE gui=undercurl guisp=#FC623B
 hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
@@ -262,12 +262,14 @@ hi mailHeaderKey     guifg=#FFC66D ctermfg=221
 hi! link mailSubject mailHeaderKey
 
 " Spell
-hi MatchParen guifg=#FFC66D guibg=#072f95 gui=bold
-hi Question   guibg=#420101 gui=NONE
-hi SpellBad   gui=undercurl guisp=#F47454
-hi SpellCap   gui=undercurl guisp=#F47454
-hi SpellLocal gui=undercurl guisp=#F47454
-hi SpellRare  gui=undercurl guisp=#F47454
+hi MatchParen   guifg=#FFC66D guibg=#072f95 gui=bold
+hi Question     guibg=#420101 gui=NONE
+hi SpellBad     gui=undercurl guisp=#FC623B
+hi SpellCap     gui=undercurl guisp=#FC623B
+hi SpellLocal   gui=undercurl guisp=#FC623B
+hi SpellRare    gui=undercurl guisp=#FC623B
+" https://github.com/vim-utils/vim-troll-stopper
+hi TrollStopper guifg=#FC623B guibg=#281010 gui=bold,undercurl
 
 " HTML - XML
 hi htmlArg          guifg=#FF8700 gui=italic
