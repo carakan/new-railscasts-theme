@@ -68,7 +68,7 @@ hi Constant    guifg=#0095CB guibg=NONE gui=NONE
 hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
-hi Error       guibg=NONE gui=undercurl guisp=#FC623B
+hi Error       guibg=NONE gui=undercurl guisp=#d32a00
 hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
@@ -92,7 +92,7 @@ hi Statement   guifg=#F47454 guibg=NONE
 hi String      guifg=#74D155 guibg=NONE
 hi Tag         guifg=#F47454 guibg=NONE
 hi Title       guifg=#E9E1D7 guibg=NONE
-hi Todo        guifg=#D38E39 guibg=NONE gui=bold,italic
+hi Todo        guifg=#D38E39 guibg=NONE gui=bold,italic,underline
 hi Type        guifg=#F47454 guibg=NONE gui=NONE
 hi WarningMsg  guifg=#DA4939 guibg=NONE gui=NONE
 hi TabLineFill guifg=#2D2720 guibg=#2d2d2d
@@ -264,12 +264,12 @@ hi! link mailSubject mailHeaderKey
 " Spell
 hi MatchParen   guifg=#FFC66D guibg=#072f95 gui=bold
 hi Question     guibg=#420101 gui=NONE
-hi SpellBad     gui=undercurl guisp=#FC623B
-hi SpellCap     gui=undercurl guisp=#FC623B
-hi SpellLocal   gui=undercurl guisp=#FC623B
-hi SpellRare    gui=undercurl guisp=#FC623B
+hi SpellBad     gui=undercurl guisp=#d32a00
+hi SpellCap     gui=undercurl guisp=#e07093
+hi SpellLocal   gui=undercurl guisp=#8b5fc7
+hi SpellRare    gui=undercurl guisp=#5cbe97
 " https://github.com/vim-utils/vim-troll-stopper
-hi TrollStopper guifg=#FC623B guibg=#281010 gui=bold,undercurl
+hi TrollStopper guisp=#d32a00 guibg=#281010 gui=bold,undercurl
 
 " HTML - XML
 hi htmlArg          guifg=#FF8700 gui=italic
