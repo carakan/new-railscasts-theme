@@ -68,7 +68,7 @@ hi Constant    guifg=#0095CB guibg=NONE gui=NONE
 hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
-hi Error       guibg=NONE gui=undercurl guisp=#d32a00
+hi Error       guibg=NONE gui=undercurl guisp=#891900
 hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
@@ -264,10 +264,12 @@ hi! link mailSubject mailHeaderKey
 " Spell
 hi MatchParen   guifg=#FFC66D guibg=#072f95 gui=bold
 hi Question     guibg=#420101 gui=NONE
-hi SpellBad     gui=undercurl guisp=#d32a00
-hi SpellCap     gui=undercurl guisp=#e07093
-hi SpellLocal   gui=undercurl guisp=#8b5fc7
+hi SpellBad     gui=undercurl guisp=#891900
+hi SpellCap     gui=undercurl guisp=#a82103
+hi SpellLocal   gui=undercurl guisp=#d32a00
 hi SpellRare    gui=undercurl guisp=#5cbe97
+" neovim needs this group
+hi link markdownError SpellLocal 
 " https://github.com/vim-utils/vim-troll-stopper
 hi TrollStopper guisp=#d32a00 guibg=#281010 gui=bold,undercurl
 
