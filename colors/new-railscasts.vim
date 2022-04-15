@@ -118,23 +118,24 @@ hi diffRemoved       guifg=#F47454 gui=italic
 hi gitblame          guifg=#775e3e guibg=NONE gui=italic,bold
 
 " Ruby https://github.com/vim-ruby/vim-ruby
-hi rspecMatchers             guifg=#FFC66D guibg=NONE
-hi rubyBlockParameter        guifg=#D7B0FC guibg=NONE
-hi rubyClass                 guifg=#FC623B guibg=NONE
-hi rubyClassName      guifg=#F47454 gui=italic,bold
-hi rubyConstant              guifg=#FC623B guibg=NONE gui=bold
-hi rubyMethodName            guifg=#FFC66D guibg=NONE gui=bold
-hi rubyPredefinedConstant    guifg=#F47454 guibg=NONE
-hi rubyPseudoVariable        guifg=#DD75C9 guibg=NONE gui=italic,bold
-hi rubyStringDelimiter       guifg=#87AF5F guibg=NONE gui=bold
-hi rubyHeredocDelimiter      guifg=#519F50 guibg=NONE gui=italic,bold
+hi rspecMatchers              guifg=#FFC66D guibg=NONE
+hi rubyBlockParameter         guifg=#D7B0FC guibg=NONE
+hi rubyClass                  guifg=#FC623B guibg=NONE
+hi rubyClassName              guifg=#F47454 gui=italic,bold
+hi rubyConstant               guifg=#FC623B guibg=NONE gui=bold
+hi rubyMethodName             guifg=#FFC66D guibg=NONE gui=bold
+hi rubyPredefinedConstant     guifg=#F47454 guibg=NONE
+hi rubyPseudoVariable         guifg=#DD75C9 guibg=NONE gui=italic,bold
+hi rubyStringDelimiter        guifg=#318e12 guibg=NONE gui=bold
+hi rubyHeredocDelimiter       guifg=#519F50 guibg=NONE gui=italic,bold
 hi rubyInterpolationDelimiter guifg=#519F50 guibg=NONE gui=bold
-hi rubySymbol                guifg=#6D9CBE guibg=NONE gui=bold
-hi rubyCurlyBlockDelimiter   guifg=#D38E39 guibg=NONE gui=bold
-hi rubyInterpolation         guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
-hi link rubyArrayDelimiter   rubyCurlyBlockDelimiter
-hi link rubyBracketOperator  rubyCurlyBlockDelimiter
-hi link rubyLambdaOperator   rubyCurlyBlockDelimiter
+hi rubySymbol                 guifg=#6D9CBE guibg=NONE gui=bold
+hi rubyCurlyBlockDelimiter    guifg=#D38E39 guibg=NONE gui=bold
+hi rubyInterpolation          guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
+hi link rubyStringEscape      rubyStringDelimiter 
+hi link rubyArrayDelimiter    rubyCurlyBlockDelimiter
+hi link rubyBracketOperator   rubyCurlyBlockDelimiter
+hi link rubyLambdaOperator    rubyCurlyBlockDelimiter
 hi link rubyPercentSymbolDelimiter  rubyCurlyBlockDelimiter
 hi link rubyPercentStringDelimiter  rubyCurlyBlockDelimiter
 hi link rubyPercentRegexpDelimiter  rubyCurlyBlockDelimiter
