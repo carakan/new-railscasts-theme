@@ -103,20 +103,6 @@ hi TabLineSel  guifg=#3e4249 guibg=#A5C261 gui=italic,bold
 hi IndentGuidesOdd  ctermbg=239 guibg=#282828
 hi IndentGuidesEven ctermbg=237 guibg=#332717
 
-" Diffs
-hi DiffAdd           guifg=#E4E4E4 guibg=#519F50
-hi DiffChange        guifg=#EAE3D9 guibg=#870087
-hi DiffDelete        guifg=#E4E4E4 guibg=#660000 gui=bold
-hi DiffText          guifg=#FFC66D guibg=#FF0000 gui=bold
-hi SignifySignAdd    guifg=#008700 guibg=#2d2d2d gui=NONE
-hi SignifySignChange guifg=#C643C6 guibg=#2d2d2d gui=NONE
-hi SignifySignDelete guifg=#FF5D4F guibg=#2d2d2d gui=NONE
-hi diffAdded         guifg=#519F50 gui=bold
-hi diffFile          guifg=#EAE3D9 guibg=NONE gui=bold
-hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
-hi diffRemoved       guifg=#F47454 gui=italic
-hi gitblame          guifg=#775e3e guibg=NONE gui=italic,bold
-
 " Ruby https://github.com/vim-ruby/vim-ruby
 hi rspecMatchers              guifg=#FFC66D guibg=NONE
 hi rubyBlockParameter         guifg=#D7B0FC guibg=NONE
@@ -320,3 +306,48 @@ hi link TSSymbol rubySymbol
 hi link TSPunctDelimiter rubyCurlyBlockDelimiter
 hi link TSBracket rubyCurlyBlockDelimiter
 hi link TSPunctBracket rubyCurlyBlockDelimiter
+
+" Diffs Git
+hi DiffAdd           guifg=#E4E4E4 guibg=#519F50
+hi DiffChange        guifg=#EAE3D9 guibg=#870087
+hi DiffDelete        guifg=#E4E4E4 guibg=#FF5D4F gui=bold
+hi DiffText          guifg=#FFC66D guibg=#FF0000 gui=bold
+hi SignifySignAdd    guifg=#008700 guibg=#2d2d2d gui=NONE
+hi SignifySignChange guifg=#C643C6 guibg=#2d2d2d gui=NONE
+hi SignifySignDelete guifg=#FF5D4F guibg=#2d2d2d gui=NONE
+hi diffAdded         guifg=#b9eeb8 guibg=#213022 gui=NONE
+hi diffRemoved       guifg=#ff8378 guibg=#302221 gui=italic
+hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
+hi link diffLine     mkdLink
+hi link diffSubname  scssSelectorName
+hi gitblame          guifg=#775e3e guibg=NONE gui=italic,bold
+hi link gitEmail     jsObjectFuncName
+hi link gitIdentity  jsObjectFuncName
+hi link diffFile     typescriptArrowFunc
+
+" vim-fugitive
+
+hi link fugitiveHeader             Identifier
+hi link fugitiveSymbolicRef        jsObjectFuncName
+" FugitiveHelpHeader = { fg = cp.sky.medium },
+" FugitiveHelpTag 
+hi FugitiveHunk guibg=#2d2d2d gui=NONE
+hi link gitDiff                    FugitiveHunk 
+" hi link fugitiveCount              Normal
+
+hi link fugitiveUntrackedHeading   rubyClassName
+hi link fugitiveUntrackedModifier  mkdLink
+hi link fugitiveUntrackedSection   elixirOperator
+
+hi link fugitiveUnstagedHeading    rubyClassName
+hi link fugitiveUnstagedModifier   mkdLink
+hi link fugitiveUnstagedSection    elixirOperator
+
+hi link fugitiveStagedHeading      rubyClassName
+hi link fugitiveStagedModifier     mkdLink
+hi link fugitiveStagedSection      elixirOperator
+
+hi link fugitiveHeading            rubyClassName
+hi link fugitiveHash               jsThis
+hi link gitHash                    jsThis
+" hi link fugitiveSection            customUnderstate
