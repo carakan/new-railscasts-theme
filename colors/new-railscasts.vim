@@ -271,9 +271,6 @@ hi SpellLocal   gui=undercurl guisp=#d32a00
 hi SpellRare    gui=undercurl guisp=#5cbe97
 " neovim needs this group
 hi link markdownError SpellLocal 
-" https://github.com/vim-utils/vim-troll-stopper
-hi TrollStopper guisp=#d32a00 guibg=#281010 gui=bold,undercurl
-
 " HTML - XML
 hi htmlArg          guifg=#FF8700 gui=italic
 hi link htmlEndTag  xmlEndTag
