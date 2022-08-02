@@ -351,3 +351,8 @@ hi link fugitiveHeading            rubyClassName
 hi link fugitiveHash               jsThis
 hi link gitHash                    jsThis
 " hi link fugitiveSection            customUnderstate
+
+" CoC Pum (Popup)
+hi link CocPumSearch           MatchParen
+hi link CocPumVirtualText      FugitiveHunk
+hi link CocPumShortcut         LineNr
