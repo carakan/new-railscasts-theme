@@ -336,23 +336,25 @@ hi link gitDiff                    FugitiveHunk
 " hi link fugitiveCount              Normal
 
 hi link fugitiveUntrackedHeading   rubyClassName
-hi link fugitiveUntrackedModifier  mkdLink
-hi link fugitiveUntrackedSection   elixirOperator
+hi link fugitiveUntrackedModifier  rubyPseudoVariable
+hi link fugitiveUntrackedSection   Function
 
 hi link fugitiveUnstagedHeading    rubyClassName
-hi link fugitiveUnstagedModifier   mkdLink
-hi link fugitiveUnstagedSection    elixirOperator
+hi link fugitiveUnstagedModifier   rubyPseudoVariable
+hi link fugitiveUnstagedSection    Function
 
 hi link fugitiveStagedHeading      rubyClassName
-hi link fugitiveStagedModifier     mkdLink
+hi link fugitiveStagedModifier     rubyPseudoVariable
 hi link fugitiveStagedSection      elixirOperator
 
 hi link fugitiveHeading            rubyClassName
 hi link fugitiveHash               jsThis
 hi link gitHash                    jsThis
-" hi link fugitiveSection            customUnderstate
+hi fugitiveSection                 guifg=#fcf3c9  guibg=#2d2d2d gui=NONE
 
 " CoC Pum (Popup)
-hi link CocPumSearch           MatchParen
+hi CocPumSearch                guifg=#ffecbd guibg=#000000 gui=bold,italic
 hi link CocPumVirtualText      FugitiveHunk
 hi link CocPumShortcut         LineNr
+hi CocMenuSel                  guibg=#546231
+hi CocFloatingDividingLine     guifg=#333333  guibg=#555555
