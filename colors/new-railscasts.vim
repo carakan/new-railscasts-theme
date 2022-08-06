@@ -118,7 +118,7 @@ hi rubyInterpolationDelimiter guifg=#519F50 guibg=NONE gui=bold
 hi rubySymbol                 guifg=#6D9CBE guibg=NONE gui=bold
 hi rubyCurlyBlockDelimiter    guifg=#D38E39 guibg=NONE gui=bold
 hi rubyInterpolation          guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
-hi link rubyStringEscape      rubyStringDelimiter 
+hi link rubyStringEscape      rubyStringDelimiter
 hi link rubyArrayDelimiter    rubyCurlyBlockDelimiter
 hi link rubyBracketOperator   rubyCurlyBlockDelimiter
 hi link rubyLambdaOperator    rubyCurlyBlockDelimiter
@@ -138,7 +138,7 @@ hi link rubyDefine                  rubyClass
 hi link rubyGemfileMethod           rubyClass
 hi link rubyModuleName           rubyClassName
 " Ruby nvim-treesitter
-hi link rubyTSSymbol rubySymbol   
+hi link rubyTSSymbol rubySymbol
 hi link rubyTSPunctBracket rubyCurlyBlockDelimiter
 " Javascript https://github.com/pangloss/vim-javascript
 hi jsArrowFunction       guifg=#FFA78D gui=bold
@@ -332,20 +332,20 @@ hi link fugitiveSymbolicRef        jsObjectFuncName
 " FugitiveHelpHeader = { fg = cp.sky.medium },
 " FugitiveHelpTag 
 hi FugitiveHunk guibg=#2d2d2d gui=NONE
-hi link gitDiff                    FugitiveHunk 
+hi link gitDiff                    FugitiveHunk
 " hi link fugitiveCount              Normal
 
 hi link fugitiveUntrackedHeading   rubyClassName
-hi link fugitiveUntrackedModifier  rubyPseudoVariable
-hi link fugitiveUntrackedSection   Function
+hi fugitiveUntrackedModifier       guifg=#DD75C9 guibg=#2d2600 gui=italic,bold
+hi fugitiveUntrackedSection        guifg=#FFC66D guibg=#2d2600
 
 hi link fugitiveUnstagedHeading    rubyClassName
-hi link fugitiveUnstagedModifier   rubyPseudoVariable
-hi link fugitiveUnstagedSection    Function
+hi fugitiveUnstagedModifier        guifg=#DD75C9 guibg=#201826 gui=italic,bold
+hi fugitiveUnstagedSection         guifg=#FFC66D guibg=#201826
 
 hi link fugitiveStagedHeading      rubyClassName
-hi link fugitiveStagedModifier     rubyPseudoVariable
-hi link fugitiveStagedSection      elixirOperator
+hi fugitiveStagedModifier          guifg=#DD75C9 guibg=#21272d gui=italic,bold
+hi fugitiveStagedSection           guifg=#FFC66D guibg=#21272d gui=bold
 
 hi link fugitiveHeading            rubyClassName
 hi link fugitiveHash               jsThis
@@ -353,8 +353,8 @@ hi link gitHash                    jsThis
 hi fugitiveSection                 guifg=#fcf3c9  guibg=#2d2d2d gui=NONE
 
 " CoC Pum (Popup)
-hi CocPumSearch                guifg=#ffecbd guibg=#000000 gui=bold,italic
+hi CocPumSearch                guifg=#ffecbd guibg=#20202f gui=bold,italic
 hi link CocPumVirtualText      FugitiveHunk
 hi link CocPumShortcut         LineNr
 hi CocMenuSel                  guibg=#546231
-hi CocFloatingDividingLine     guifg=#333333  guibg=#555555
+hi CocFloatDividingLine     guifg=#333333  guibg=#555555
