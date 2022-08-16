@@ -40,8 +40,8 @@ set background=dark
 
 hi Normal       guifg=#FEF9E1 guibg=#202020
 hi Cursor       guifg=#000000 guibg=#EAE3D9
-hi CursorLine   guibg=#2D2720
-hi ColorColumn  guibg=#2D2720
+hi CursorLine   guifg=NONE guibg=#2D2720 gui=NONE guisp=#443f2d
+hi ColorColumn  guifg=NONE guibg=#2D2720 gui=NONE
 hi Search       guifg=#FFC66D guibg=#072f95 gui=bold
 hi Visual       guibg=#003f72 gui=NONE
 hi LineNr       guifg=#707070 guibg=#2d2d2d
@@ -69,7 +69,8 @@ hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
 hi Error       guibg=NONE gui=undercurl guisp=#891900
-hi Folded      guifg=#F6F3E8 guibg=#444444 gui=NONE
+hi Folded      guifg=#909090 guibg=#333333 gui=italic,bold
+hi FoldColumn  guifg=#D38E39 guibg=#2d2d2d
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
 hi Include     guifg=#F47454 guibg=NONE ctermfg=173 cterm=NONE
@@ -118,6 +119,7 @@ hi rubyInterpolationDelimiter guifg=#519F50 guibg=NONE gui=bold
 hi rubySymbol                 guifg=#6D9CBE guibg=NONE gui=bold
 hi rubyCurlyBlockDelimiter    guifg=#D38E39 guibg=NONE gui=bold
 hi rubyInterpolation          guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
+hi link rubyAccess            rubyClassName
 hi link rubyStringEscape      rubyStringDelimiter
 hi link rubyArrayDelimiter    rubyCurlyBlockDelimiter
 hi link rubyBracketOperator   rubyCurlyBlockDelimiter
@@ -125,21 +127,21 @@ hi link rubyLambdaOperator    rubyCurlyBlockDelimiter
 hi link rubyPercentSymbolDelimiter  rubyCurlyBlockDelimiter
 hi link rubyPercentStringDelimiter  rubyCurlyBlockDelimiter
 hi link rubyPercentRegexpDelimiter  rubyCurlyBlockDelimiter
-hi link rubyScopeOperator  rubyCurlyBlockDelimiter
+hi link rubyScopeOperator           rubyCurlyBlockDelimiter
 hi link rubySuperClassOperator      rubyMethodName
 hi link rubyProcOperator            rubyMethodName
 hi link rubyAssignmentOperator      rubyMethodName
-hi link rubyBitwiseOperator      rubyMethodName
+hi link rubyBitwiseOperator         rubyMethodName
 hi link rubyDotOperator             rspecMatchers
 hi link rubyBlockParameterList      rubyBlockParameter
 hi link rubyInstanceVariable        rubyBlockParameter
 hi link rubyLocalVariableOrMethod   rubyBlockParameter
 hi link rubyDefine                  rubyClass
 hi link rubyGemfileMethod           rubyClass
-hi link rubyModuleName           rubyClassName
+hi link rubyModuleName              rubyClassName
 " Ruby nvim-treesitter
-hi link rubyTSSymbol rubySymbol
-hi link rubyTSPunctBracket rubyCurlyBlockDelimiter
+hi link rubyTSSymbol                rubySymbol
+hi link rubyTSPunctBracket          rubyCurlyBlockDelimiter
 " Javascript https://github.com/pangloss/vim-javascript
 hi jsArrowFunction       guifg=#FFA78D gui=bold
 hi jsBrackets            guifg=#D38E39 gui=bold
@@ -280,16 +282,17 @@ hi link erubyDelimiter hbsHandles
 hi link eelixirDelimiter hbsHandles
 hi link hamlAttributesDelimiter hbsHandles
 
-hi ALEErrorSign        guibg=#2d2d2d guifg=#F47454 gui=NONE
-hi ALEInfoSign         guibg=#2d2d2d guifg=#0095CB gui=NONE
-hi ALEStyleErrorSign   guibg=#2d2d2d guifg=#F47454 gui=NONE
-hi ALEStyleWarningSign guibg=#2d2d2d guifg=#FFC66D gui=NONE
-hi ALEWarningSign      guibg=#2d2d2d guifg=#FFC66D gui=NONE
-hi ALEWarningSignLineNr  gui=NONE
-hi ALEErrorSignLineNr  gui=NONE
-hi ALEInfoSignLineNr  gui=NONE
+" ALE
+hi ALEErrorSign               guibg=#2d2d2d guifg=#F47454 gui=NONE
+hi ALEInfoSign                guibg=#2d2d2d guifg=#0095CB gui=NONE
+hi ALEStyleErrorSign          guibg=#2d2d2d guifg=#F47454 gui=NONE
+hi ALEStyleWarningSign        guibg=#2d2d2d guifg=#FFC66D gui=NONE
+hi ALEWarningSign             guibg=#2d2d2d guifg=#FFC66D gui=NONE
+hi ALEWarningSignLineNr       gui=NONE
+hi ALEErrorSignLineNr         gui=NONE
+hi ALEInfoSignLineNr          gui=NONE
 hi ALEStyleWarningSignLineNr  gui=NONE
-hi ALEStyleErrorSignLineNr  gui=NONE
+hi ALEStyleErrorSignLineNr    gui=NONE
 
 hi BookmarkSign        guibg=#202020 guifg=#FFC66D gui=NONE
 hi checkbox            guifg=#3A3A3A guibg=NONE gui=NONE
@@ -302,36 +305,36 @@ hi PMVstring      guifg=#74D155 guibg=NONE gui=bold
 hi PMVvalueNumber guifg=#FFC66D guibg=NONE gui=italic
 
 " generic nvim-treesitter
-hi link TSSymbol rubySymbol
+hi link TSSymbol         rubySymbol
 hi link TSPunctDelimiter rubyCurlyBlockDelimiter
-hi link TSBracket rubyCurlyBlockDelimiter
-hi link TSPunctBracket rubyCurlyBlockDelimiter
+hi link TSBracket        rubyCurlyBlockDelimiter
+hi link TSPunctBracket   rubyCurlyBlockDelimiter
 
-" Diffs Git
-hi DiffAdd           guifg=#E4E4E4 guibg=#519F50
-hi DiffChange        guifg=#EAE3D9 guibg=#870087
-hi DiffDelete        guifg=#E4E4E4 guibg=#FF5D4F gui=bold
-hi DiffText          guifg=#FFC66D guibg=#FF0000 gui=bold
-hi SignifySignAdd    guifg=#008700 guibg=#2d2d2d gui=NONE
-hi SignifySignChange guifg=#C643C6 guibg=#2d2d2d gui=NONE
-hi SignifySignDelete guifg=#FF5D4F guibg=#2d2d2d gui=NONE
-hi diffAdded         guifg=#b9eeb8 guibg=#213022 gui=NONE
-hi diffRemoved       guifg=#ff8378 guibg=#302221 gui=italic
-hi diffNewFile       guifg=#EAE3D9 guibg=NONE gui=bold
-hi link diffLine     mkdLink
-hi link diffSubname  scssSelectorName
-hi gitblame          guifg=#775e3e guibg=NONE gui=italic,bold
-hi link gitEmail     jsObjectFuncName
-hi link gitIdentity  jsObjectFuncName
-hi link diffFile     typescriptArrowFunc
+" Diffs Git + diffview.nvim
+hi DiffAdd            guifg=NONE guibg=#213022
+hi DiffChange         guifg=NONE guibg=#331c31
+hi DiffDelete         guifg=NONE guibg=#332222 gui=bold
+hi DiffviewDiffDelete guifg=#444444 guibg=#332222 gui=bold
+hi DiffText           guifg=NONE guibg=#573054 gui=bold
+hi SignifySignAdd     guifg=#008700 guibg=#2d2d2d gui=NONE
+hi SignifySignChange  guifg=#C643C6 guibg=#2d2d2d gui=NONE
+hi SignifySignDelete  guifg=#FF5D4F guibg=#2d2d2d gui=NONE
+hi diffAdded          guifg=#b9eeb8 guibg=#213022 gui=NONE
+hi diffRemoved        guifg=#ff8378 guibg=#302221 gui=italic
+hi diffNewFile        guifg=#EAE3D9 guibg=NONE gui=bold
+hi link diffLine      mkdLink
+hi link diffSubname   scssSelectorName
+hi gitblame           guifg=#775e3e guibg=NONE gui=italic,bold
+hi link gitEmail      jsObjectFuncName
+hi link gitIdentity   jsObjectFuncName
+hi link diffFile      typescriptArrowFunc
 
 " vim-fugitive
-
 hi link fugitiveHeader             Identifier
 hi link fugitiveSymbolicRef        jsObjectFuncName
 " FugitiveHelpHeader = { fg = cp.sky.medium },
 " FugitiveHelpTag 
-hi FugitiveHunk guibg=#2d2d2d gui=NONE
+hi FugitiveHunk                    guibg=#2d2d2d gui=NONE
 hi link gitDiff                    FugitiveHunk
 " hi link fugitiveCount              Normal
 
@@ -356,5 +359,5 @@ hi fugitiveSection                 guifg=#fcf3c9  guibg=#2d2d2d gui=NONE
 hi CocPumSearch                guifg=#ffecbd guibg=#20202f gui=bold,italic
 hi link CocPumVirtualText      FugitiveHunk
 hi link CocPumShortcut         LineNr
-hi CocMenuSel                  guibg=#546231
-hi CocFloatDividingLine     guifg=#333333  guibg=#555555
+hi CocMenuSel                  guibg=#708341
+hi CocFloatingBorder           guifg=#444444  guibg=#888888
