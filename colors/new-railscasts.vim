@@ -322,8 +322,8 @@ hi SignifySignDelete  guifg=#FF5D4F guibg=#2d2d2d gui=NONE
 hi diffAdded          guifg=#b9eeb8 guibg=#213022 gui=NONE
 hi diffRemoved        guifg=#ff8378 guibg=#302221 gui=italic
 hi diffNewFile        guifg=#EAE3D9 guibg=NONE gui=bold
-hi link diffLine      mkdLink
-hi link diffSubname   scssSelectorName
+hi diffLine           guifg=#7aa2be guibg=#3A3A3A gui=underline
+hi diffSubname        guifg=#b599af guibg=#3A3A3A gui=bold,italic
 hi gitblame           guifg=#775e3e guibg=NONE gui=italic,bold
 hi link gitEmail      jsObjectFuncName
 hi link gitIdentity   jsObjectFuncName
