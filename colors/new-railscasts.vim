@@ -118,7 +118,8 @@ hi rubyHeredocDelimiter       guifg=#519F50 guibg=NONE gui=italic,bold
 hi rubyInterpolationDelimiter guifg=#519F50 guibg=NONE gui=bold
 hi rubySymbol                 guifg=#6D9CBE guibg=NONE gui=bold
 hi rubyCurlyBlockDelimiter    guifg=#D38E39 guibg=NONE gui=bold
-hi rubyInterpolation          guifg=#f9f3d6 guibg=NONE guibg=#2d2d2d
+hi rubyInterpolation          guifg=#f9f3d6 guibg=#2d2d2d
+hi rubyClassVariable          guifg=#D7B0FC guibg=NONE gui=bold
 hi link rubyAccess            rubyClassName
 hi link rubyStringEscape      rubyStringDelimiter
 hi link rubyArrayDelimiter    rubyCurlyBlockDelimiter
@@ -139,6 +140,7 @@ hi link rubyLocalVariableOrMethod   rubyBlockParameter
 hi link rubyDefine                  rubyClass
 hi link rubyGemfileMethod           rubyClass
 hi link rubyModuleName              rubyClassName
+hi link rubyMagicComment            rubyCurlyBlockDelimiter
 " Ruby nvim-treesitter
 hi link rubyTSSymbol                rubySymbol
 hi link rubyTSPunctBracket          rubyCurlyBlockDelimiter
