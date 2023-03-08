@@ -254,13 +254,18 @@ hi! link mailSubject mailHeaderKey
 
 " Spell
 hi MatchParen   guifg=#FFC66D guibg=#072f95 gui=bold
-hi Question     guibg=#420101 gui=NONE
+hi Question     guifg=#c19655 guibg=NONE gui=italic,bold
 hi SpellBad     gui=undercurl guisp=#891900
 hi SpellCap     gui=undercurl guisp=#a82103
 hi SpellLocal   gui=undercurl guisp=#d32a00
 hi SpellRare    gui=undercurl guisp=#5cbe97
+hi DiagnosticUnderlineError  gui=undercurl guisp=#891900 guibg=NONE guifg=NONE
+hi DiagnosticUnderlineWarn  gui=undercurl guisp=#a82103 guibg=NONE guifg=NONE
+hi DiagnosticUnderlineHint  gui=undercurl guisp=#d32a00 guibg=NONE guifg=NONE
+hi DiagnosticUnderlineInfo  gui=undercurl guisp=#5cbe97 guibg=NONE guifg=NONE
+
 " neovim needs this group
-hi link markdownError SpellLocal 
+hi link markdownError SpellLocal
 " HTML - XML
 hi htmlArg          guifg=#FF8700 gui=italic
 hi link htmlEndTag  xmlEndTag
@@ -290,6 +295,11 @@ hi ALEInfoSign                guibg=#2d2d2d guifg=#0095CB gui=NONE
 hi ALEStyleErrorSign          guibg=#2d2d2d guifg=#F47454 gui=NONE
 hi ALEStyleWarningSign        guibg=#2d2d2d guifg=#FFC66D gui=NONE
 hi ALEWarningSign             guibg=#2d2d2d guifg=#FFC66D gui=NONE
+hi link DiagnosticSignError ALEErrorSign
+hi link DiagnosticSignWarn ALEWarningSign
+hi link DiagnosticSignHint ALEWarningSign
+hi link DiagnosticSignInfo ALEInfoSign
+
 hi ALEWarningSignLineNr       gui=NONE
 hi ALEErrorSignLineNr         gui=NONE
 hi ALEInfoSignLineNr          gui=NONE
@@ -312,7 +322,7 @@ hi link TSPunctDelimiter rubyCurlyBlockDelimiter
 hi link TSBracket        rubyCurlyBlockDelimiter
 hi link TSPunctBracket   rubyCurlyBlockDelimiter
 
-" Diffs Git + diffview.nvim
+" Diffs Git + diffview.nvim + GitSigns
 hi DiffAdd            guifg=NONE guibg=#213022
 hi DiffChange         guifg=NONE guibg=#331c31
 hi DiffDelete         guifg=NONE guibg=#332222 gui=bold
