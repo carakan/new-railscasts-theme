@@ -69,8 +69,8 @@ hi Define      guifg=#FFA78D guibg=NONE gui=NONE
 hi Delimiter   guifg=#519F50 guibg=NONE gui=NONE
 hi Directory   guifg=#A5C261 gui=NONE
 hi Error       guibg=NONE gui=undercurl guisp=#891900
-hi Folded      guifg=#909090 guibg=#333333 gui=italic,bold
-hi FoldColumn  guifg=#D38E39 guibg=#2d2d2d
+hi Folded      guifg=#909090 guibg=#353535 gui=italic,bold
+hi FoldColumn  guifg=#BC7F23 guibg=#353535
 hi Function    guifg=#FFC66D gui=NONE guibg=NONE ctermfg=221 cterm=NONE
 hi Identifier  guifg=#D7B0FC guibg=NONE ctermfg=73 cterm=NONE
 hi Include     guifg=#F47454 guibg=NONE ctermfg=173 cterm=NONE
@@ -373,3 +373,6 @@ hi link CocPumVirtualText      FugitiveHunk
 hi link CocPumShortcut         LineNr
 hi CocMenuSel                  guibg=#708341
 hi CocFloatingBorder           guifg=#444444  guibg=#888888
+hi default link HlSearchNear Search
+hi default link HlSearchLens LineNr
+hi default link HlSearchLensNear Search
