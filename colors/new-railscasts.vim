@@ -373,6 +373,12 @@ hi link CocPumVirtualText      FugitiveHunk
 hi link CocPumShortcut         LineNr
 hi CocMenuSel                  guibg=#708341
 hi CocFloatingBorder           guifg=#444444  guibg=#888888
+
+
+hi link alphanumeric Normal
+hi link txtNumber Number
+hi link lineURL mkdLink 
+
 hi default link HlSearchNear Search
 hi default link HlSearchLens LineNr
 hi default link HlSearchLensNear Search
