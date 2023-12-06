@@ -47,7 +47,7 @@ hi Visual       guibg=#003f72 gui=NONE
 hi LineNr       guifg=#707070 guibg=#2d2d2d
 hi StatusLine   guifg=#E4E4E4 guibg=#606060 gui=NONE
 hi StatusLineNC guifg=#585858 guibg=#303030 gui=NONE
-hi VertSplit    guifg=#454545 guibg=#333333 gui=bold
+hi WinSeparator guifg=#454545 guibg=#333333 gui=bold
 hi CursorLineNr guifg=#D7B0FC guibg=#2d2d2d gui=bold
 hi SignColumn   guibg=#2D2D2D
 hi User1        guifg=#EEEEEE guibg=#606060 gui=bold
